@@ -1,4 +1,4 @@
-# Getting started
+# 開始使用
 <small>
 
 以其他語言來閱讀（View this page in other languages）:
