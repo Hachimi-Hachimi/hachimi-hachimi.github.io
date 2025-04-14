@@ -42,7 +42,7 @@ Game tidak bisa berjalan setelah terinstall? Terlebih dahulu buka folder instala
 
 - **Cara menggunakan Hachimi installer:** Download hachimi terbaru `hachimi_installer.exe` di [Releases page](https://github.com/Hachimi-Hachimi/Hachimi/releases). Jalankan lalu pilih, **"UnityPlayer.dll" sebagai utama** dan klik install.
 
-Ketika menginstall pertamakali, installer akan meminta permintaan untuk enable DotLocal DLL redirection. Pencet "OK" dan akan automatis enable. **Kamu membutuhkan restar komputer untuk pertama kalinya.**
+Ketika menginstall pertamakali, installer akan meminta permintaan untuk enable DotLocal DLL redirection. Pencet "OK" dan akan otomatis enable. **Kamu membutuhkan restar komputer untuk pertama kalinya.**
 
 - **Cara manual**
 1. Merujuk pada "Configure the registry" artikel [di sini](https://learn.microsoft.com/en-us/windows/win32/dlls/dynamic-link-library-redirection#optional-configure-the-registry) untuk enable DLL redirection. Restar komputer setelah kamu selesai.
@@ -62,7 +62,7 @@ Metode ini sudah tidak lagi berjalan. Silakan ikuti cara di bawah untuk cara mig
 :::
 
 #### Migrasi dari metode 2 ke metode 1
-Kamu mungkin berasi dari metode 2 ke metode 1, proses ini tidak sepenuhnya mudah dibandingkan dengan sebaliknya (dari 1 -> 2, hanya unistall dan install). 
+Kamu mungkin migrasi dari metode 2 ke metode 1, proses ini tidak sepenuhnya mudah dibandingkan dengan sebaliknya (dari 1 -> 2, hanya unistall dan install). 
 
 Kamu perlu menghapus Shinmy secara bersih terlebih dahulu; pastikan Shunmy tidak berjalan saat kamu menghapusnya karena dapat bertahan hingga 30 detik setelah DMM ditutup dan dapat memulihkan (aktif lagi) dengan sendirinya. **Cara termudah untuk melakukannya adalah dengan menggunakan installer** (yang juga kebetulan merupakan uninstaller), aplikasi tersebut akan membersihkan semuanya dengan aman.
 
