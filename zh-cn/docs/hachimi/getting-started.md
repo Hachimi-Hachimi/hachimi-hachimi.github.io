@@ -7,17 +7,17 @@
 ### Windows
 | 版本 | 是否支持 |
 | --- | :---: |
-| 日语版 | ✅ |
-| 韩语版 | ⚠️ |
+| 日语版（JP） | ✅ |
+| 韩语版（KR） | ⚠️ |
 
 ### Android
 
 | 版本 | 普通安装 | 直接安装 |
 | --- | :---: | :---: |
-| 日语版 | ✅ | ✅ |
-| 韩语版 | ⚠️ | ⚠️ |
-| 繁体中文Google Play版 | ⚠️ | ❔ |
-| 繁体中文Mycard版 | ⚠️ | ⚠️ |
+| 日语版（JP） | ✅ | ✅ |
+| 韩语版（KR） | ⚠️ | ⚠️ |
+| 繁体中文Google Play版（TW GP） | ⚠️ | ❔ |
+| 繁体中文Mycard版（TW MC） | ⚠️ | ⚠️ |
 - ✅ - 完全支持。
 - ⚠️ - 可以使用，但游戏可能因为外部环境因素导致无法正常运行（例如反作弊）。
 - ❔ - 也许能运行，但是不要抱有太大期望。
@@ -28,12 +28,12 @@
 
 ### Windows
 
-从v0.13.0版本开始，Hachimi目前支持两种不同的安装方法。 **请注意：只能使用一种安装方法，使用安装程序或手动安装，切勿同时使用两种安装方法。**
+从v0.13.0版本开始，Hachimi目前支持两种不同的安装方法。 **请注意：只能使用一种安装方法，无论使用安装程序还是手动安装，不要同时使用两种安装方法。**
 
-#### 方法1：DotLocal DLL redirection（.local文件DLL重定向） （UnityPlayer.dll）（推荐使用）
+#### 方法1：DotLocal DLL redirection（.local文件DLL重定向）（UnityPlayer.dll）（推荐使用）
 
 ::: warning
-部分反作弊系统（如Vanguard）对系统内启用的DLL重定向机制采取严苛监控策略，即便该操作不会直接影响其所保护的游戏运行。建议在游玩采用Vanguard等同类反作弊系统的游戏时，务必提前禁用DLL重定向功能。
+部分反作弊系统（如Vanguard）并不喜欢你启用的DLL重定向，即使该操作不会直接影响游戏运行。建议在游玩采用Vanguard等同类反作弊系统的游戏时，务必提前禁用DLL重定向功能。
 :::
 
 ::: info
@@ -49,10 +49,10 @@
 2. 从[发布页面](https://github.com/Hachimi-Hachimi/Hachimi/releases)下载最新的`hachimi.dll`。
 3. 在游戏的安装路径新建一个名为`umamusume.exe.local`的文件夹，将下载好的DLL移动到这里，并将其命名为`UnityPlayer.dll`。
 4. 从[Cellar发布页面](https://github.com/Hachimi-Hachimi/Cellar/releases)下载最新的`cellar.dll`。
-5. 将其移动至`umamusume.exe.local`并命名为`apphelp.dll`.
+5. 将其移动至`umamusume.exe.local`并命名为`apphelp.dll`。
 
 ::: info
-给想玩英雄联盟（LoL）以及无畏契约（Valorant）的玩家的一些提示：当你每次想玩这些游戏时，你都要禁用DLL重定向。你可以使用这个程序去快速启用/禁用它：https://github.com/LeadRDRK/DotLocalToggle/releases 运行它，直到它显示已禁用DLL重定向，然后重新启动计算机。
+给想玩英雄联盟（LoL）以及无畏契约（Valorant）的玩家的一些提示：当你每次想玩这些游戏时，你都要禁用DLL重定向。你可以使用这个程序去快速启用/禁用它：https://github.com/LeadRDRK/DotLocalToggle/releases 运行它，直到它显示已禁用（disabled）DLL重定向，然后重新启动计算机。
 :::
 
 #### 方法2：Plugin shimming（插件兼容适配）（cri_mana_vpx.dll）
@@ -101,12 +101,12 @@ UmaPatcher包含root安装选项，无需卸载游戏即可使用，且游戏仍
 
 #### 手动安装
 1. 自行构建或从[发布页面](https://github.com/Hachimi-Hachimi/Hachimi/releases)下载预编译库文件。
-2. 提取游戏的APK文件，你也行会用得上[apktool](https://apktool.org/)这个软件。
+2. 提取游戏的APK文件，你也许会用得上[apktool](https://apktool.org/)这个软件。
 3. 将`lib`文件夹内的所有文件夹里的`libmain.so`重命名为`libmain_orig.so`。
 4. 将代理库文件复制至对应架构文件夹（例如：`libmain-arm64-v8a.so` 应放入 `lib/arm64-v8a`），并将其重命名为 `libmain.so`。
-5. 构建APK文件并安装
+5. 构建APK文件并安装。
 
-## First Time Setup
+## 初次设置（First Time Setup）
 成功安装Hachimi后，初次启动游戏将显示如下对话框：
 
 ![First Time Setup](/assets/first-time-setup.jpg)
