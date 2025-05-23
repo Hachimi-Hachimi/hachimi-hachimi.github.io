@@ -1,3 +1,7 @@
+---
+title: About
+---
+
 # Hachimi
 [![Discord server](https://dcbadge.limes.pink/api/server/https://discord.gg/BVEt5FcxEn)](https://discord.gg/BVEt5FcxEn)
 

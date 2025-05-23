@@ -1,7 +1,55 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig, UserConfig } from 'vitepress';
+import { withSidebar } from 'vitepress-sidebar';
+import { VitePressSidebarOptions } from 'vitepress-sidebar/types';
+
+const defaultLocale = 'en';
+const defineSupportLocales = [
+  defaultLocale,
+  'vi',
+  'de',
+  'zh-cn',
+  'zh-tw',
+  'id',
+  'ja'
+];
+
+const commonSidebarConfig: VitePressSidebarOptions = {
+  collapsed: false,
+  capitalizeFirst: true,
+  useTitleFromFileHeading: true,
+  useTitleFromFrontmatter: true,
+  useFolderTitleFromIndexFile: true,
+  sortMenusByFrontmatterOrder: true,
+  manualSortFileNameByPriority: [
+    'hachimi',
+    'about.md',
+    'getting-started.md',
+    'troubleshooting.md',
+    'built-in-gui.md',
+    'config.md',
+    'faqs.md',
+    'auto-translation.md',
+
+    'translation-guide',
+    'welcome.md',
+    'translation-system.md',
+    'using-zokuzoku.md'
+  ]
+};
+
+const vitePressSidebarConfig = [
+  ...defineSupportLocales.map((lang) => {
+    return {
+      ...commonSidebarConfig,
+      documentRootPath: defaultLocale === lang ? '/docs/' : `/${lang}/docs/`,
+      resolvePath: defaultLocale === lang ? '/docs/' : `/${lang}/docs/`,
+      ...(defaultLocale === lang ? {} : { basePath: `/${lang}/docs/` })
+    };
+  })
+];
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+const vitePressConfig: UserConfig = {
   title: "Hachimi",
   description: "Game enhancement and translation mod for UM:PD",
   head: [
@@ -102,6 +150,14 @@ export default defineConfig({
     id: {
       label: 'Bahasa Indonesia',
       lang: 'id'
+    },
+    ja: {
+      label: '日本語',
+      lang: 'ja'
     }
   }
-})
+};
+
+export default defineConfig(
+  withSidebar(vitePressConfig, vitePressSidebarConfig)
+);
