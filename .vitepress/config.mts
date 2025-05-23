@@ -64,63 +64,6 @@ const vitePressConfig: UserConfig = {
       { text: 'Docs', link: '/docs' }
     ],
 
-    sidebar: [
-      {
-        text: "Hachimi",
-        collapsed: false,
-        base: "/docs/hachimi/",
-        items: [
-          {
-            text: 'About',
-            link: "about"
-          },
-          {
-            text: 'Getting Started',
-            link: "getting-started"
-          },
-          {
-            text: 'Troubleshooting',
-            link: "troubleshooting"
-          },
-          {
-            text: 'Built-in GUI',
-            link: "built-in-gui"
-          },
-          {
-            text: 'Config',
-            link: "config"
-          },
-          {
-            text: 'FAQs',
-            link: "faqs"
-          },
-          {
-            text: 'Auto translation',
-            link: "auto-translation"
-          }
-        ]
-      },
-      {
-        text: "Translation guide",
-        collapsed: false,
-        base: "/docs/translation-guide/",
-        items: [
-          {
-            text: 'Welcome',
-            link: "welcome"
-          },
-          {
-            text: 'Translation system',
-            link: "translation-system"
-          },
-          {
-            text: "Using ZokuZoku",
-            link: "using-zokuzoku"
-          }
-        ]
-      }
-    ],
-
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Hachimi-Hachimi/Hachimi' },
       { icon: 'discord', link: 'https://discord.gg/BVEt5FcxEn' }
