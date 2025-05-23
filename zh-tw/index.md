@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 開始使用
-      link: zh-tw/docs/hachimi/getting-started.html
+      link: /zh-tw/docs/hachimi/getting-started.html
     - theme: alt
       text: 檢視 GitHub
       link: https://github.com/Hachimi-Hachimi/Hachimi
