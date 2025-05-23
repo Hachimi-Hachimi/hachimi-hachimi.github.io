@@ -38,8 +38,8 @@ features:
 ## 遊戲截圖
 
 <div class="gallery">
-  <img class="item grid-4" src="zh-tw/assets/screen1.png" alt="主畫面">
-  <img class="item grid-4" src="zh-tw/assets/screen2.png" alt="邁向最強隊伍！畫面">
-  <img class="item grid-4" src="zh-tw/assets/screen3.png" alt="訓練事件">
-  <img class="item grid-4" src="zh-tw/assets/screen4.png" alt="活動劇情">
+  <img class="item grid-4" src="/zh-tw/assets/screen1.png" alt="主畫面">
+  <img class="item grid-4" src="/zh-tw/assets/screen2.png" alt="邁向最強隊伍！畫面">
+  <img class="item grid-4" src="/zh-tw/assets/screen3.png" alt="訓練事件">
+  <img class="item grid-4" src="/zh-tw/assets/screen4.png" alt="活動劇情">
 </div>
