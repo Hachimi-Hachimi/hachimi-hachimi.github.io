@@ -57,13 +57,6 @@ const vitePressConfig: UserConfig = {
   ],
   themeConfig: {
     logo: "/assets/logo.png",
-
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Screenshots', link: '/#screenshots' },
-      { text: 'Docs', link: '/docs' }
-    ],
-
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Hachimi-Hachimi/Hachimi' },
       { icon: 'discord', link: 'https://discord.gg/BVEt5FcxEn' }
@@ -72,31 +65,80 @@ const vitePressConfig: UserConfig = {
   locales: {
     root: {
       label: 'English',
-      lang: 'en'
+      lang: 'en',
+      themeConfig: {
+        nav: [
+          { text: 'Home', link: '/' },
+          { text: 'Screenshots', link: '/#screenshots' },
+          { text: 'Docs', link: '/docs' }
+        ]
+      }
     },
     vi: {
       label: 'Tiếng Việt',
-      lang: 'vi'
+      lang: 'vi',
+      themeConfig: {
+        nav: [
+          { text: 'Trang chủ', link: '/vi/' },
+          { text: 'Ảnh minh họa', link: '/vi/#screenshots' },
+          { text: 'Hướng dẫn', link: '/vi/docs' }
+        ]
+      }
     },
     de: {
       label: 'Deutsch',
-      lang: 'de'
+      lang: 'de',
+      themeConfig: {
+        nav: [
+          { text: 'Startseite', link: '/de/' },
+          { text: 'Screenshots', link: '/de/#screenshots' },
+          { text: 'Dokumentation', link: '/de/docs' }
+        ]
+      }
     },
     'zh-cn': {
       label: '简体中文',
-      lang: 'zh-cn'
+      lang: 'zh-cn',
+      themeConfig: {
+        nav: [
+          { text: '首页', link: '/zh-cn/' },
+          { text: '截图', link: '/zh-cn/#screenshots' },
+          { text: '文档', link: '/zh-cn/docs' }
+        ]
+      }
     },
     'zh-tw': {
       label: '繁體中文',
-      lang: 'zh-tw'
+      lang: 'zh-tw',
+      themeConfig: {
+        nav: [
+          { text: '首頁', link: '/zh-tw/' },
+          { text: '螢幕截圖', link: '/zh-tw/#screenshots' },
+          { text: '文件', link: '/zh-tw/docs' }
+        ]
+      }
     },
     id: {
       label: 'Bahasa Indonesia',
-      lang: 'id'
+      lang: 'id',
+      themeConfig: {
+        nav: [
+          { text: 'Beranda', link: '/id/' },
+          { text: 'Tangkapan Layar', link: '/id/#screenshots' },
+          { text: 'Dokumentasi', link: '/id/docs' }
+        ]
+      }
     },
     ja: {
       label: '日本語',
-      lang: 'ja'
+      lang: 'ja',
+      themeConfig: {
+        nav: [
+          { text: 'ホーム', link: '/ja/' },
+          { text: 'スクリーンショット', link: '/ja/#screenshots' },
+          { text: 'ドキュメント', link: '/ja/docs' }
+        ]
+      }
     }
   }
 };

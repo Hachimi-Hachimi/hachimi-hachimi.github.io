@@ -35,7 +35,7 @@ features:
     details: Including graphics settings which you can adjust to fit your needs.
 ---
 
-## Screenshots
+## Screenshots {#screenshots}
 
 <div class="gallery">
   <img class="item grid-4" src="/assets/screen1.jpg" alt="Home screen">

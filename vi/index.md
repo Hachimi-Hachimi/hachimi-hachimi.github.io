@@ -35,7 +35,7 @@ features:
     details: Cho phép bạn chỉnh sửa các thiết lập đồ họa, chẳng hạn như unlock FPS, tăng độ phân giải, tăng chất lượng đồ họa, v.v.
 ---
 
-## Ảnh minh họa
+## Ảnh minh họa {#screenshots}
 
 <div class="gallery">
   <img class="item grid-4" src="/assets/screen1.jpg" alt="Home screen">
