@@ -25,17 +25,17 @@ features:
     title: "簡単インストール"
     details: "シンプルなワンクリックインストーラーでインストールは簡単。パッチ適用は一切不要。すべてのセットアップはゲーム内で完結し、面倒な設定は不要。"
   - icon: 🖥️
-    title: "内蔵GUI"
-    details: "便利なユーザーインターフェイスで、他の機能とともに設定を簡単に変更可能。"
+    title: "内蔵 GUI"
+    details: "便利なユーザーインターフェイスにより、他の機能とともに設定を簡単に変更可能。"
   - icon: 📝
     title: "高品質な翻訳"
-    details: "より自然な翻訳を実現する高度な翻訳機能を搭載。"
+    details: "高度な翻訳機能を搭載し、より自然な翻訳を実現。"
   - icon: 🪄
-    title: "ゲーム強化と調整"
+    title: "ゲーム強化"
     details: "ニーズに合わせてグラフィック設定を調整可能。"
 ---
 
-## Screenshots {#screenshots}
+## スクリーンショット {#screenshots}
 
 <div class="gallery">
   <img class="item grid-4" src="/assets/screen1.jpg" alt="Home screen">
