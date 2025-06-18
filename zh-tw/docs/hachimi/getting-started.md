@@ -95,15 +95,15 @@ https://github.com/LeadRDRK/DotLocalToggle/releases
     - **分離 APK 檔**：一個主 APK 檔案 + 一個 split config（例如 config.arm64_v8a、config.armeabi-v7a 等），只需選擇一個符合你裝置的版本。這通常是日本版才會用到的格式。
     - **單一 APK 檔案**：完整的 APK 包。
     - **XAPK 檔案**：將分離 APK 壓縮成 ZIP，再將副檔名改為 .xapk。
-3. 開啟 UmaPatcher，選擇「Normal install」，然後選取你準備好的檔案。
-4. 點選「Patch」開始修改與安裝流程。
+3. 開啟 UmaPatcher，選擇「一般安裝」，然後選取你準備好的檔案。
+4. 點選「開始修改」開始修改與安裝流程。
 
 每次遊戲更新後，都需要從第 2 步重新操作一次。
 
 #### Root 裝置使用者
 UmaPatcher 提供 root 裝置專用的安裝選項，可以不用解除安裝遊戲，就能直接打補丁，並可照常從任何應用商店更新遊戲。
 
-安裝遊戲後，在 UmaPatcher 主畫面點選上方卡片，選擇要修改的應用程式（如果需要的話）。然後選擇「Direct install」作為安裝方式，並點選「Patch」。這個方式不需要額外提供安裝檔案。
+安裝遊戲後，在 UmaPatcher 主畫面點選上方卡片，選擇要修改的應用程式（如果需要的話）。然後選擇「直接安裝」作為安裝方式，並點選「開始修改」。這個方式不需要額外提供安裝檔案。
 
 遊戲更新後，只需再次執行補丁即可。
 
