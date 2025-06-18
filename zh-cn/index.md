@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Hachimi"
   text: "游戏增强与翻译插件"
-  tagline: 对于 UM:PD
+  tagline: 用于某赛马拟人化游戏
   image:
     src: /assets/logo.png
     alt: Hachimi

@@ -3,9 +3,9 @@
 
 这可能是由于 Android 10 引入了分区存储，导致 Hachimi 无法创建其数据目录。要解决此问题，请打开文件管理器，前往 Android/media 并创建一个名为 “jp.co.cygames.umamusume” 的文件夹。重新启动游戏即可解决问题。
 
-- **全屏模式下：输入位置不对/游戏分辨率拉伸**
+- **全屏模式下：输入位置不正确/游戏分辨率拉伸**
 
-请确保你已正确设置 `full_screen_mode` 和 `resolution_scaling` 这两个选项。如果你的屏幕分辨率高于 1080p，请将 `resolution_scaling` 设置为其他选项之一。如果你的画面比例不是 16:9，请使用独占全屏模式。
+请确保你已正确设置 `full_screen_mode` 和 `resolution_scaling` 这两个选项。如果你的屏幕分辨率高于 1080p，请将 `resolution_scaling` 设置为其他可用选项。如果你的画面比例不是 16:9，请使用**独占全屏**模式。
 
 - **在 Android 设备上启动时崩溃**
 

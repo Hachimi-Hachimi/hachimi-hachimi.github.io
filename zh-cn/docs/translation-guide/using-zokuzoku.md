@@ -8,7 +8,7 @@ ZokuZoku 是一款专为 Hachimi 设计的 Visual Studio Code 扩展，可作为
 - [Visual Studio Code](https://code.visualstudio.com/) v1.90 或更高版本（注意不是 Visual Studio！这两个东西完全不同！）
 
 ZokuZoku 运行时需以下文件：
-- `master.mdb` 与 `meta` ：这些文件位于游戏的数据目录中（在 Windows 中位于 Appdata 文件夹，在 Android 中位于 `data/data`文件夹，需要 root）。这两个文件必须位于同一个文件夹中，文件 `meta` 位于根目录中，而文件 `master.mdb` 要位于子文件夹 `master` 中，这样我们就得到了 `文件夹/meta` 和 `文件夹/master/master.mdb`。**通过 DMM 安装 UM:PD 的用户则无需担心，因为 ZokuZoku 可自动检测到它们！**
+- `master.mdb` 与 `meta` ：这些文件位于游戏的数据目录中（在 Windows 中位于 Appdata 文件夹，在 Android 中位于 `data/data`文件夹，需要 root）。这两个文件必须位于同一个文件夹中，文件 `meta` 位于根目录中，而文件 `master.mdb` 要位于子文件夹 `master` 中，这样我们就得到了 `文件夹/meta` 和 `文件夹/master/master.mdb`。**通过 DMM 安装游戏的用户则无需担心，因为 ZokuZoku 可自动检测到它们！**
 - `localize_dump.json` ：此文件包含从游戏中转储的原始 `localize_dict` 数据。Hachimi 可以用以下方式创建此文件
 1. 在 Hachimi 的配置编辑器中启用 “翻译者模式”。
 ![Config editor](/assets/translation-guide/using-zokuzoku/1.webp)
@@ -187,7 +187,7 @@ ZokuZoku 运行时需以下文件：
 
 选择文本框会分配一个 “链接” 。尝试在原始视图或预览面板中将鼠标悬停在它们上方；您会注意到文本会带有下划线，这表示它是一个包含指向其他条目的链接的文本框。您可以按住 Ctrl 键并单击鼠标左键来跟踪此链接，该链接指向此选择将指向的剧情区块。
 
-男女训练营的选择可能会有所不同。我们来看一个极端的例子：
+男女训练员的选择可能会有所不同。我们来看一个极端的例子：
 
 ![Mejiro Dober's story, part 4](/assets/translation-guide/using-zokuzoku/23.webp)
 

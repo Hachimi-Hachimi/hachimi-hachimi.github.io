@@ -1,7 +1,7 @@
 # 内置 GUI
 使用内置 GUI 可以激活一些游戏内的功能或修改设置。
 
-从 v0.14.0 版本开始，Hachimi 内置 GUI 语言将支持**简体中文**，你可以在 First Time Setup（初始化设置）对话框首页或 Config Editor（配置编辑器）窗口点击 “Language” 进行切换，以下内容介绍将以简体中文为准。
+*从 v0.14.0 版本开始，Hachimi 内置 GUI 语言将支持**简体中文**，你可以在 First Time Setup（初始化设置）对话框首页或 Config Editor（配置编辑器）窗口点击 “Language” 进行切换，以下内容介绍将以简体中文为准。*
 
 ![GUI screenshot](/assets/built-in-gui.jpg)
 
