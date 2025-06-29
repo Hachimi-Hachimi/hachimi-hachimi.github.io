@@ -7,25 +7,33 @@ Silakan periksa kompatibilitasnya sebelum menginstal terlebih dahulu.
 ### Windows
 | Versi | Didukung |
 | --- | :---: |
-| JP | ✅ |
-| KR | ⚠️ |
+| JP (DMM) | ✅ |
+| JP (Steam) | ❌ |
+| KR | ❌ |
+| Global | ✅ |
 
 ### Android
 
-| Version | Normal install | Direct install |
-| --- | :---: | :---: |
-| JP | ✅ | ✅ |
-| KR | ⚠️ | ⚠️ |
-| TW GP | ⚠️ | ❔ |
-| TW MC | ⚠️ | ⚠️ |
+| Version | Normal install | Direct install | Zygisk |
+| --- | :---: | :---: | :---: |
+| JP | ✅ | ✅ | ✅ |
+| KR | ❌ | ❌ | ❌ |
+| TW GP | ⚠️ | ⚠️ | ✅ |
+| TW MC | ⚠️ | ⚠️ | ✅ |
+| CN | ⚠️ | ⚠️ | ✅ |
+| Global | ⚠️ | ⚠️ | ❔ |
 - ✅ - Didukung sepenuhnya.
 - ⚠️ - Bekerja, tergantung stiuasi terkadang menjadi gagal (Contoh: karena masalah Anti Cheat).
 - ❔ - Mungkin bekerja, jangan terlalu berharap.
 - ❌ - Tidak didukung.
 
-
 ## Instalasi
 
+Proses instalasi berbeda-beda, tergantung pada versi gamenya. Klik salah satu buat lihat caranya.
+
+<details>
+<summary style="font-size: 20px; font-weight: 600;">JP</summary>
+    
 ### Windows
 
 Mulai dari versi v0.13.0, Hachimi saat ini mendukung dua metode dengan prosedur instalasi yang berbeda. **Pilih hanya satu metode, dan gunakan installer atau lakukan secara manual, JANGAN gunakan bersamaan.**
@@ -105,6 +113,25 @@ Kamu perlu menginstalnya lagi setiap kali aplikasi diperbarui.
 3. Ganti nama `libmain.so` file di setiap folder di dalam `lib` ke `libmain_orig.so`.
 4. Salin proxy ke folder yang sesuai. (contoh `libmain-arm64-v8a.so` pergi ke `lib/arm64-v8a`). Ganti namanya menjadi `libmain.so`.
 5. Build file APK dan instal.
+   
+</details>
+<summary style="font-size: 20px; font-weight: 600;">Global / TW / CN</summary>
+
+### Windows
+
+- Cara pake installer: Download Hachimi terbaru `hachimi_installer.exe` di [Releases page](https://github.com/Hachimi-Hachimi/Hachimi-Unity2020/releases). Jalankan dan klik Instal. Gak perlu ubah opsi apa pun jika kamu gak tahu artinya.
+- Cara manual: Download paling baru Hachimi `hachimi.dll` di [Releases page](https://github.com/Hachimi-Hachimi/Hachimi-Unity2020/releases) dan taruh di direktori instalasi game. Ubah namanya menjadi `winhttp.dll`, `version.dll` or `opengl32.dll`.
+
+### Android
+
+::: warning
+Hachimi tidak dapat digunakan dengan versi ini (Global) tanpa root.
+:::
+
+#### Zygisk
+Download zip Zygisk terbaru di [Releases page](https://github.com/Hachimi-Hachimi/Hachimi-Unity2020/releases) dan instal dengan Magisk atau KernelSU (dengan Zygisk Next).
+
+</details>
 
 ## Pengaturan Pertama Kali
 Saat memulai game untuk pertama kalinya setelah menginstal Hachimi, kamu akan disambut dengan dialog ini.
