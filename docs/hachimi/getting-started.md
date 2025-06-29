@@ -14,24 +14,32 @@ Please check the compatibility before installing.
 ### Windows
 | Version | Supported |
 | --- | :---: |
-| JP | ✅ |
-| KR | ⚠️ |
+| JP (DMM) | ✅ |
+| JP (Steam) | ❌ |
+| KR | ❌ |
+| Global | ✅ |
 
 ### Android
 
-| Version | Normal install | Direct install |
-| --- | :---: | :---: |
-| JP | ✅ | ✅ |
-| KR | ⚠️ | ⚠️ |
-| TW GP | ⚠️ | ❔ |
-| TW MC | ⚠️ | ⚠️ |
+| Version | Normal install | Direct install | Zygisk |
+| --- | :---: | :---: | :---: |
+| JP | ✅ | ✅ | ✅ |
+| KR | ❌ | ❌ | ❌ |
+| TW GP | ⚠️ | ⚠️ | ✅ |
+| TW MC | ⚠️ | ⚠️ | ✅ |
+| CN | ⚠️ | ⚠️ | ✅ |
+| Global | ⚠️ | ⚠️ | ❔ |
 - ✅ - Fully supported.
 - ⚠️ - Works, but the game itself won't due to external circumstances (e.g. the AC triggering).
-- ❔ - Might work, don't count on it.
+- ❔ - Untested. Might work, but don't count on it.
 - ❌ - Not supported.
 
-
 ## Installation
+
+The installation process is different depending on the version of the game. Click on one of these to view them.
+
+<details>
+<summary style="font-size: 20px; font-weight: 600;">JP</summary>
 
 ### Windows
 
@@ -112,6 +120,27 @@ You'll need to install it again whenever the app updates.
 3. Rename the `libmain.so` file in each of the folders inside `lib` to `libmain_orig.so`.
 4. Copy the proxy libraries to their corresponding folders (e.g. `libmain-arm64-v8a.so` goes to `lib/arm64-v8a`). Rename them to `libmain.so`.
 5. Build the APK file and install it.
+
+</details>
+
+<details>
+<summary style="font-size: 20px; font-weight: 600;">Global / TW / CN</summary>
+
+### Windows
+
+- Using the installer: Download the latest `hachimi_installer.exe` from the [Releases page](https://github.com/Hachimi-Hachimi/Hachimi-Unity2020/releases). Run it and click on Install. No need to modify any of the options if you don't know what they mean.
+- Manually: Download the latest `hachimi.dll` from the [Releases page](https://github.com/Hachimi-Hachimi/Hachimi-Unity2020/releases) and put it in the game's install directory. Rename it to `winhttp.dll`, `version.dll` or `opengl32.dll`.
+
+### Android
+
+::: warning
+Hachimi cannot be used with these versions without root.
+:::
+
+#### Zygisk
+Download the latest Zygisk zip from the [Releases page](https://github.com/Hachimi-Hachimi/Hachimi-Unity2020/releases) and install it with Magisk or KernelSU (with Zygisk Next).
+
+</details>
 
 ## First Time Setup
 Upon launching the game for the first time after installing Hachimi, you should be greeted with this dialog:
