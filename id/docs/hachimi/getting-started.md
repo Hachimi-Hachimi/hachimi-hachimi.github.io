@@ -115,6 +115,7 @@ Kamu perlu menginstalnya lagi setiap kali aplikasi diperbarui.
 5. Build file APK dan instal.
    
 </details>
+
 <summary style="font-size: 20px; font-weight: 600;">Global / TW / CN</summary>
 
 ### Windows
