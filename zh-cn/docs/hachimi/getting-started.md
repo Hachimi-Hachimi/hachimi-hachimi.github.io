@@ -2,29 +2,37 @@
 
 ## 兼容性
 
-请在安装前检查游戏版本的兼容性。
+请在安装前检查兼容性。
 
 ### Windows
-| 版本 | 是否支持 |
+| 游戏版本 | 支持情况 |
 | --- | :---: |
-| 日语版（JP） | ✅ |
-| 韩语版（KR） | ⚠️ |
+| 日语 DMM 版（JP DMM） | ✅ |
+| 日语 Steam 版 (JP Steam) | ❌ |
+| 韩语版（KR） | ❌ |
+| 国际版（Global） | ✅ |
 
 ### Android
 
-| 版本 | 普通安装 | 直接安装 |
-| --- | :---: | :---: |
-| 日语版（JP） | ✅ | ✅ |
-| 韩语版（KR） | ⚠️ | ⚠️ |
-| 繁体中文 Google Play 版（TW GP） | ⚠️ | ❔ |
-| 繁体中文 Mycard 版（TW MC） | ⚠️ | ⚠️ |
+| 游戏版本 | 普通安装 | 直接安装 | Zygisk |
+| --- | :---: | :---: | :---: |
+| 日语版（JP） | ✅ | ✅ | ✅ |
+| 韩语版（KR） | ❌ | ❌ | ❌ |
+| 繁体中文 Google Play 版（TW GP） | ⚠️ | ⚠️ | ✅ |
+| 繁体中文 Mycard 版（TW MC） | ⚠️ | ⚠️ | ✅ |
+| 简体中文版（CN） | ⚠️ | ⚠️ | ✅ |
+| 国际版（Global） | ⚠️ | ⚠️ | ❔ |
 - ✅ - 完全支持。
-- ⚠️ - 可以使用，但游戏可能因为外部环境因素导致无法正常运行（例如：反作弊）。
-- ❔ - 也许能运行，但是不要抱有太大期望。
+- ⚠️ - 可能支持，但游戏可能因为外部因素导致无法正常运行（例如：反作弊）。
+- ❔ - 未经测试。理论上支持，但并不保证。
 - ❌ - 不支持。
 
-
 ## 安装
+
+安装过程根据游戏版本而有所不同。请点击其中一个进行查看。
+
+<details>
+<summary style="font-size: 20px; font-weight: 600;">日语版</summary>
 
 ### Windows
 
@@ -108,6 +116,28 @@ UmaPatcher 包含 root 安装选项，无需卸载游戏即可使用，且游戏
 4. 将代理库文件复制至对应架构文件夹（例如：`libmain-arm64-v8a.so` 应放入 `lib/arm64-v8a`），并将其重命名为 `libmain.so`。
 5. 构建APK文件并安装。
 
+</details>
+
+<details>
+<summary style="font-size: 20px; font-weight: 600;">国际版 / 繁体中文版 / 简体中文版</summary>
+
+### Windows（仅限国际版）
+
+- **使用安装程序**：从[发布页面](https://github.com/Hachimi-Hachimi/Hachimi-Unity2020/releases)下载最新的`hachimi_installer.exe`，打开它并点击 Install。如果你不知道里面的选项是什么意思，就请不要修改。
+-**手动安装**：从[发布页面](https://github.com/Hachimi-Hachimi/Hachimi-Unity2020/releases)下载最新的`hachimi.dll`并将其放在游戏安装目录，并将其重命名为`winhttp.dll``version.dll`或`opengl32.dll`。
+
+### Android
+
+::: warning
+Hachimi 必须在有 root 的环境下才能在这些版本上使用。
+:::
+
+#### Zygisk
+
+请在[发布页面](https://github.com/Hachimi-Hachimi/Hachimi-Unity2020/releases)下载最新的 Zygisk 模块压缩包并将其安装在 Magisk 或 KernelSU（安装了 Zygisk Next 模块）上。
+
+</details>
+
 ## 初始化设置（First Time Setup）
 成功安装 Hachimi 后，初次启动游戏将显示如下对话框：
 
@@ -117,6 +147,6 @@ UmaPatcher 包含 root 安装选项，无需卸载游戏即可使用，且游戏
 
 *从 v0.14.0 版本开始，你可以在此页面点击 “Language” 将 Hachimi 内置 GUI 语言切换为简体中文。*
 
-点击 “Next”，选择您所需的翻译仓库，随后点击 “Done” 保存配置并启动更新检查。
+点击 “下一步”，选择您所需的翻译仓库，随后点击 “完成” 保存配置并启动更新检查。
 
-Hachimi 将提示您下载新翻译更新，点击 “Yes” 即可开始下载翻译文件。
+Hachimi 将提示您下载新翻译更新，点击 “是” 即可开始下载翻译文件。
