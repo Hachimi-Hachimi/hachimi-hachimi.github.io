@@ -32,7 +32,7 @@
 - `auto_translate_localize`: 允许通过自动翻译器翻译 UI 文本。通常不建议这样做，因为大多数翻译器无法正确保留换行符或格式标签。
 
 ### 仅限 Windows
-- `vsync_count`: 垂直同步。设置为 1，即可让游戏帧率匹配显示器的刷新率。更多信息请参阅 [Unity 文档](https://docs.unity3d.com/ScriptReference/QualitySettings-vSyncCount.html) for more info.
+- `vsync_count`: 垂直同步。设置为 1，即可让游戏帧率匹配显示器的刷新率。更多信息请参阅 [Unity 文档](https://docs.unity3d.com/ScriptReference/QualitySettings-vSyncCount.html)。
 - `load_libraries`: 启动时加载的 DLL 列表。可用于加载其他模组。例如：`["applejuicer.dll", "banana.dll"]`
 - `menu_open_key`: 打开菜单的按键的虚拟键码。默认值：`39`（右方向键）。查看[此页面](https://cherrytree.at/misc/vk.htm)以获取所有键码的列表。
 - `auto_full_screen`: 当游戏方向与屏幕方向一致时，游戏将自动进入全屏模式。目前，Hachimi 不支持其他画面比例，并且始终会将全屏分辨率缩放至 16:9。在使用该选项时请正确设置 `full_screen_mode` 和 `resolution_scaling`的值。
