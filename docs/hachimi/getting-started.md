@@ -7,6 +7,16 @@ View this page in other languages:
 
 </small>
 
+## ⚠️ Please don't link to this website or the GitHub repo
+We understand that you want to help people install Hachimi and have a better experience playing the game. However, this project is inherently against the game's TOS and The Game Developer most definitely wants it gone if they were ever to learn about it.
+
+While sharing in your self-managed chat services and through private messaging is fine, we humbly ask that you refrain from sharing links to this project on public facing sites, or to any of the tools involved.
+
+Or share them and ruin it for the dozens of Hachimi users. It's up to you.
+
+### If you're going to share it anyways
+Do what you must, but we would respectfully request that you try to label the game as "UM:PD" or "The Honse Game" instead of the actual name of the game, to avoid search engine parsing.
+
 ## Compatibility
 
 Please check the compatibility before installing.
