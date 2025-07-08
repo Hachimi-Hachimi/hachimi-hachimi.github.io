@@ -1,7 +1,7 @@
 ## ⚠️ Harap jangan share tautan langsung ke situs web ini atau repo GitHub
 Kami mengerti bahwa kalian ingin membantu orang-orang memasang Hachimi dan bisa merasakan pengalaman bermain game yang lebih baik. Akan tetapi, proyek ini pada dasarnya melanggar TOS game dan Developer pasti ingin proyek ini dihapus jika mereka mengetahuinya.
 
-Jika hanya sebatas obrolan secara private tidak masalah, kami dengan rendah hati meminta kalian untuk tidak membagikan tautan ke proyek ini di situs publik, atau apa pun yang termasuk.
+Jika hanya sebatas obrolan secara private tidak masalah, kami dengan rendah hati meminta kalian untuk tidak membagikan tautan ke proyek ini di situs publik.
 Atau apapun itu selama kalian tidak membagikannya di publik.
 
 ### Jika kalian ingin membagikannya
