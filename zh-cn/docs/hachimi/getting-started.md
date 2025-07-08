@@ -1,11 +1,4 @@
 # 入门指南
-<small>
-
-使用其他语言来阅读此页（View this page in other languages）：
-
-[English](/docs/hachimi/getting-started.html) | [Tiếng Việt](/vi/docs/hachimi/getting-started.html) | [Deustch](/de/docs/hachimi/getting-started.html) | [繁體中文](/zh-tw/docs/hachimi/getting-started.html) | [Bahasa Indonesia](/id/docs/hachimi/getting-started.html) | [日本語](/ja/docs/hachimi/getting-started.html)
-
-</small>
 
 ## ⚠️ 请不要分享这个网站与 GitHub 仓库的相关链接
 我们非常理解您希望帮助别人安装 Hachimi 来与其获得更好的游戏体验。但是，此项目本质上违反了游戏的服务条款，如果被游戏的开发商得知，他们肯定会希望这个项目灰飞烟灭。
