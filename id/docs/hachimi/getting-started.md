@@ -5,7 +5,7 @@ Jika hanya sebatas obrolan secara private tidak masalah, kami dengan rendah hati
 Atau apapun itu selama kalian tidak membagikannya di publik.
 
 ### Jika kalian ingin membagikannya
-Lakukan terserah kalian, tetapi kami dengan hormat meminta kalian untuk mencoba memberi label game sebagai "UM:PD" atau "The Honse Game" dan bukan nama sebenarnya dari permainan tersebut, guna menghindari psearch engine.
+Lakukan terserah kalian, tetapi kami dengan hormat meminta kalian untuk mencoba memberi label game sebagai "UM:PD" atau "The Honse Game" dan bukan nama sebenarnya dari permainan tersebut, guna menghindari search engine.
 
 ## Kompatibilitas
 
