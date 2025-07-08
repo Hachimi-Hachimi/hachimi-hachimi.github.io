@@ -1,4 +1,11 @@
-# Awal Mula
+## ⚠️ Harap jangan share tautan langsung ke situs web ini atau repo GitHub
+Kami mengerti bahwa kalian ingin membantu orang-orang memasang Hachimi dan bisa merasakan pengalaman bermain game yang lebih baik. Akan tetapi, proyek ini pada dasarnya melanggar TOS game dan Developer pasti ingin proyek ini dihapus jika mereka mengetahuinya.
+
+Jika hanya sebatas obrolan secara private tidak masalah, kami dengan rendah hati meminta kalian untuk tidak membagikan tautan ke proyek ini di situs publik.
+Atau apapun itu selama kalian tidak membagikannya di publik.
+
+### Jika kalian ingin membagikannya
+Lakukan terserah kalian, tetapi kami dengan hormat meminta kalian untuk mencoba memberi label game sebagai "UM:PD" atau "The Honse Game" dan bukan nama sebenarnya dari permainan tersebut, guna menghindari search engine.
 
 ## Kompatibilitas
 
@@ -122,7 +129,7 @@ Kamu perlu menginstalnya lagi setiap kali aplikasi diperbarui.
 ### Windows
 
 - Cara pake installer: Download Hachimi terbaru `hachimi_installer.exe` di [Releases page](https://github.com/Hachimi-Hachimi/Hachimi-Unity2020/releases). Jalankan dan klik Instal. Gak perlu ubah opsi apa pun jika kamu gak tahu artinya.
-- Cara manual: Download paling baru Hachimi `hachimi.dll` di [Releases page](https://github.com/Hachimi-Hachimi/Hachimi-Unity2020/releases) dan taruh di direktori instalasi game. Ubah namanya menjadi `winhttp.dll`, `version.dll` or `opengl32.dll`.
+- Cara manual: Download paling baru Hachimi `hachimi.dll` di [Releases page](https://github.com/Hachimi-Hachimi/Hachimi-Unity2020/releases) dan taruh di direktori instalasi game. Ubah namanya menjadi `winhttp.dll`, `version.dll` atau `opengl32.dll`.
 
 ### Android
 
