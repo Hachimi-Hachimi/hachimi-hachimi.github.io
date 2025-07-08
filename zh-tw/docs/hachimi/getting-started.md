@@ -22,26 +22,34 @@
 請在安裝前檢查相容性。
 
 ### Windows
-| 遊戲版本 | 是否支援 |
-| --- | :---: |
-| 日文版（JP） | ✅ |
-| 韓文版（KR） | ⚠️ |
+| 遊戲版本        | 是否支援 |
+|-------------|:----:|
+| 日文版（JP）     |  ✅   |
+| 日文版 (Steam) |  ❌   |
+| 韓文版（KR）     |  ❌   |
+| 國際版         |  ✅   |
 
 ### Android
 
-| 遊戲版本 | 一般安裝 | 直接安裝 |
-| --- | :---: | :---: |
-| 日文版（JP） | ✅ | ✅ |
-| 韓文版（KR） | ⚠️ | ⚠️ |
-| 繁體中文版 Google Play 版（TW GP） | ⚠️ | ❔ |
-| 繁體中文版 MyCard 版（TW MC） | ⚠️ | ⚠️ |
+| 遊戲版本                       | 一般安裝 | 直接安裝 | Zygisk |
+|----------------------------|:----:|:----:|:------:|
+| 日文版（JP）                    |  ✅   |  ✅   |   ✅    |
+| 韓文版（KR）                    |  ❌   |  ❌   |   ❌    |
+| 繁體中文版 Google Play 版（TW GP） |  ⚠️  |  ⚠️  |   ✅    |
+| 繁體中文版 MyCard 版（TW MC）      |  ⚠️  |  ⚠️  |   ✅    |
+| 簡體中文版 (CN)                 |  ⚠️  |  ⚠️  |   ✅    |
+| 國際版                        |  ⚠️  |  ⚠️  |   ❔    |
 - ✅ - 完全支援。
 - ⚠️ - 可運行，但可能因外部因素無法正常運行（例如：反作弊）
 - ❔ - 有可能可以運行，但對此不做保證。
 - ❌ - 不支援。
 
-
 ## 安裝
+
+安裝方式隨設備類型會有所不同，請參照下列其中一個安裝方式：
+
+<details>
+<summary style="font-size: 20px; font-weight: 600;">JP</summary>
 
 ### Windows
 
@@ -123,6 +131,27 @@ UmaPatcher 提供 root 裝置專用的安裝選項，可以不用解除安裝遊
 3. 將 `lib` 資料夾中各目錄下的 `libmain.so` 重新命名為 `libmain_orig.so`。
 4. 將對應的代理庫檔案（例如 `libmain-arm64-v8a.so`）複製到相應資料夾中（如 `lib/arm64-v8a`），並改名為 `libmain.so`。
 5. 重新打包 APK 並安裝。
+
+</details>
+
+<details>
+<summary style="font-size: 20px; font-weight: 600;">Global / TW / CN</summary>
+
+
+### Windows
+
+- 使用安裝器: 從 [Releases 頁面](https://github.com/Hachimi-Hachimi/Hachimi-Unity2020/releases) 下載最新的 `hachimi_installer.exe`，運行並點擊安裝。不需要去動那些你看不懂的設定。
+- 手動安裝: 從 [Releases 頁面](https://github.com/Hachimi-Hachimi/Hachimi-Unity2020/releases) 下載最新的 `hachimi.dll`，然後把它放在遊戲的安裝目錄裡。記得把它的名字改成 `winhttp.dll`、`version.dll` 或 `opengl32.dll`。
+
+### Android
+::: warning
+Hachimi 在沒有 root 的情況下無法在這些版本中運行。
+:::
+
+#### Zygisk
+從 [Releases 頁面](https://github.com/Hachimi-Hachimi/Hachimi-Unity2020/releases)下載 Zygisk 壓縮包，然後用 Magisk 或 KernalSU (需要 Zygisk Next) 來安裝。
+
+</details>
 
 ## 初次設定
 第一次啟動遊戲（安裝好 Hachimi 之後）時，你應該會看到這個對話框：
