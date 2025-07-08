@@ -14,7 +14,7 @@ hero:
       text: 入门指南
       link: /zh-cn/docs/hachimi/getting-started.html
     - theme: alt
-      text: 查看 Github
+      text: 查看 GitHub
       link: https://github.com/Hachimi-Hachimi/Hachimi
     - theme: alt
       text: 加入 Discord
