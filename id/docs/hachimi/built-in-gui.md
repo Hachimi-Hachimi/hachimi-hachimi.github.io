@@ -10,7 +10,7 @@ The menu can be opened by pressing a key or a button combination. This is differ
 
 **Note:** While the menu or a dialog from Hachimi is open, it will block all inputs from the system from reaching the game. You must close all of them in order to regain control to the game.
 
-(\*) This key can be rebound. See the `menu_open_key` option on the [Config page](id/docs/hachimi/config).
+(\*) This key can be rebound. See the `menu_open_key` option on the [Config page](/docs/hachimi/config).
 
 ## Config
 - **Open config editor:** This is where you can edit the config file in-game. Please see the Config page to see details about each option.
