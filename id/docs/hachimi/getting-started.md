@@ -99,7 +99,7 @@ Jangan download APK dari APKPure, akan ada masalah nantinya.
 :::
 
 1. Download dan install versi terbaru UmaPatcher di [Releases page](https://github.com/LeadRDRK/UmaPatcher/releases).
-2. Persiapkan instalasi package game, bahan-bahannya :
+2. Persiapkan instalasi package game unduh terlebih dahulu di [Qoopy]([https://github.com/LeadRDRK/UmaPatcher/releases](https://qoopy.leadrdrk.com/) dan cari dengan kode 6172, bahan-bahannya :
     - **Split APK files:** basis APK file split config APK (config.arm64_v8a, config.armeabi-v7a, etc.),
     pilih salah satu yang mendukung device (HP) kamu sekarang.
     Untuk sekarang yang didukung hanya versi JP.
