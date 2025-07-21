@@ -1,5 +1,5 @@
 # Documentation
-Welcome to the Hachimi documentation page!
+Selamat datang di halaman dokumentasi Hachimi!
 
-- **New user?** Check out the [Getting Started](/docs/hachimi/getting-started) page.
-- **Want to contribute to the project as a translator?** Check out the [Translation guide](/docs/translation-guide/welcome).
+- **Pengguna Baru** Langsung saja ke [Awal Mula](id/docs/hachimi/getting-started).
+- **Berminat berkontribusi sebagai translator?** Langsung saja ke [Cara Translate Hachimi](id/docs/translation-guide/welcome).
