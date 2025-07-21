@@ -1,3 +1,6 @@
+# Awal Mula
+<small>
+
 ## ⚠️ Harap jangan share tautan langsung ke situs web ini atau repo GitHub
 Kami mengerti bahwa kalian ingin membantu orang-orang memasang Hachimi dan bisa merasakan pengalaman bermain game yang lebih baik. Akan tetapi, proyek ini pada dasarnya melanggar TOS game dan Developer pasti ingin proyek ini dihapus jika mereka mengetahuinya.
 
