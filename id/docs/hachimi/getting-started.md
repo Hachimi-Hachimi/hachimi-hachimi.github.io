@@ -70,7 +70,7 @@ Ketika menginstall pertamakali, installer akan meminta permintaan untuk enable D
 5. Pindahkan `umamusume.exe.local` ganti nama menjadi `apphelp.dll`.
 
 ::: info
-Tips untuk kamu yang ingin bermain LoL/Valorant: Kamu harus disable DLL redirection setiap kali kamu ingin bermain game tersebut. Kamu bisa dengan mudah langsung enable/disable menggunakan: https://github.com/LeadRDRK/DotLocalToggle/releases. Jalankan sampai muncul disabled DLL redirection dan restar komputer kamu.
+Tips untuk kamu yang ingin bermain LoL/Valorant: Kamu harus disable DLL redirection setiap kali kamu ingin bermain game tersebut. Kamu bisa dengan mudah langsung enable/disable menggunakan: [di sini](https://github.com/LeadRDRK/DotLocalToggle/releases). Jalankan sampai muncul disabled DLL redirection dan restar komputer kamu.
 :::
 
 #### Metode 2: Plugin shimming (cri_mana_vpx.dll)
