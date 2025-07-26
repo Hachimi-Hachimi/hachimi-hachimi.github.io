@@ -112,6 +112,8 @@ Do not get your APK from APKPure, it's known to cause problems.
     This is currently only used by the JP version.
     - **Single APK file**: A full, fat APK file.
     - **XAPK file**: A ZIP file that contains the split APK files (with the extension renamed to XAPK).
+   
+   The split APK files or XAPK file can be downloaded from [Qoopy](https://qoopy.leadrdrk.com/), use ID 6172.
 3. Open UmaPatcher and choose "Normal install". Select the file(s) that you have prepared.
 4. Tap on Patch to start the patching and installation process.
 
