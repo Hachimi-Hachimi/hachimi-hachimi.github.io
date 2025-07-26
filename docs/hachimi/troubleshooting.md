@@ -5,7 +5,11 @@
 
 ### "Communication error" messages when attempting to start the game
 
-You may need a VPN to connect to the game.  See [this page](https://gametora.com/umamusume/playing-on-dmm) for more details. If
+You may need a VPN to connect to the game.  See [this page](https://gametora.com/umamusume/playing-on-dmm) for more details.
+If you have both the global Steam version and the Japanese DMM version of the game installed, you will need to enable case sensitivity in the game's data download directory, `C:\Users\YOUR_USERNAME_HERE\AppData\LocalLow\Cygames`:
+1. Move everything out of C:\Users\YOUR_USERNAME_HERE\AppData\LocalLow\Cygames temporarily. This folder needs to be empty! If you have both versions of the game installed, temporarily rename one version's folder or Windows will attempt to overwrite the files when you move them. (Add a 1 to the end of the folder or something similar.)
+2. Open a Powershell window type the following: `fsutil.exe file setCaseSensitiveInfo {path to your \LocalLow\Cygames} enable`
+3. Put all your files back into your Cygames folder. Global uses "Umamusume", JP uses "umamusume".
 
 ### Physics (hair, clothing, etc.) are stiff when running at 60+ FPS
 
@@ -21,7 +25,7 @@ For the Japanese DMM version of the game, you should be using the "hachimi_insta
 After you've installed Hachimi on the Japanese DMM version of the game, you need to restart your computer. **Click "Restart" in the shutdown menu, don't just shut down your computer and then turn it back on.**
 
 <!-- 
-    TODO: add more details about weird edge cases like running DMM JP and global Steam versions simultaneously and old unsupported versions of CarrotJuicer?
+    TODO: add more details about weird edge cases like old unsupported versions of CarrotJuicer?
 -->
 
 ### Steam: Can't open the Steam overlay
