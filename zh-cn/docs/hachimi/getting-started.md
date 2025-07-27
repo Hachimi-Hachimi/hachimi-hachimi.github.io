@@ -137,7 +137,7 @@ UmaPatcher 包含 root 安装选项，无需卸载游戏即可使用，且游戏
 ### Windows（仅限国际版）
 
 - **使用安装程序**：从[发布页面](https://github.com/Hachimi-Hachimi/Hachimi-Unity2020/releases)下载最新的`hachimi_installer.exe`，打开它并点击 Install。如果你不知道里面的选项是什么意思，就请不要修改。
--**手动安装**：从[发布页面](https://github.com/Hachimi-Hachimi/Hachimi-Unity2020/releases)下载最新的`hachimi.dll`并将其放在游戏安装目录，并将其重命名为`winhttp.dll``version.dll`或`opengl32.dll`。
+-**手动安装**：从[发布页面](https://github.com/Hachimi-Hachimi/Hachimi-Unity2020/releases)下载最新的`hachimi.dll`并将其放在游戏安装目录，并将其重命名为`winhttp.dll`，`version.dll`或`opengl32.dll`。
 
 ### Android
 
