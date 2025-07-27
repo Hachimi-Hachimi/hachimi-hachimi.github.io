@@ -2,12 +2,14 @@
 
 ## Mod
 - Author: LeadRDRK
+- Contributors:
 <a href="https://github.com/Hachimi-Hachimi/Hachimi/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Hachimi-Hachimi/Hachimi" />
 </a>
 
 ## [English translations](https://github.com/Hachimi-Hachimi/tl-en)
 - Maintainer: LeadRDRK
+- Contributors:
 <a href="https://github.com/Hachimi-Hachimi/tl-en/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Hachimi-Hachimi/tl-en" />
 </a>
@@ -31,12 +33,14 @@ Translations were imported from these projects:
 
 ## [Simplified Chinese translations](https://github.com/Hachimi-Hachimi/tl-zh-cn/)
 - Maintainer: yingyingyingqwq
+- Contributors:
 <a href="https://github.com/Hachimi-Hachimi/tl-zh-cn/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Hachimi-Hachimi/tl-zh-cn" />
 </a>
 
 ## [Traditional Chinese translations](https://github.com/Hachimi-Hachimi/tl-zh-tw/)
 - Maintainer: yotv2000tw
+- Contributors:
 <a href="https://github.com/Hachimi-Hachimi/tl-zh-tw/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Hachimi-Hachimi/tl-zh-tw" />
 </a>
