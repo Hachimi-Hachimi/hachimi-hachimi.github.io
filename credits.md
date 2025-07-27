@@ -2,6 +2,9 @@
 
 ## Mod
 - Author: LeadRDRK
+<a href="https://github.com/Hachimi-Hachimi/Hachimi/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Hachimi-Hachimi/Hachimi" />
+</a>
 
 ## [English translations](https://github.com/Hachimi-Hachimi/tl-en)
 - Maintainer: LeadRDRK
