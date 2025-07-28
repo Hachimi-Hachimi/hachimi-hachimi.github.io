@@ -107,8 +107,11 @@
     此功能目前仅有日语版使用。
     - **单一 APK 文件**: 一个完整的，未拆分的 APK 文件。
     - **XAPK 文件**: 一个包含拆分后的 APK 文件的 ZIP 压缩包（将扩展名重命名为了 .xapk）。
-3. 运行 UmaPatcher 并选择 “普通安装”，并选择你已经准备好的游戏安装包。
-4. 点击 “开始补丁” 按钮即可开始进行安装流程。
+
+你可以在 [Qoopy](https://qoopy.leadrdrk.com/) 网站内输入 ID **6172** 下载拆分 APK 或 XAPK 文件。
+
+4. 运行 UmaPatcher 并选择 “普通安装”，并选择你已经准备好的游戏安装包。
+5. 点击 “开始补丁” 按钮即可开始进行安装流程。
 
 注意：应用更新后需从第二步开始重新执行安装流程。
 
@@ -134,7 +137,7 @@ UmaPatcher 包含 root 安装选项，无需卸载游戏即可使用，且游戏
 ### Windows（仅限国际版）
 
 - **使用安装程序**：从[发布页面](https://github.com/Hachimi-Hachimi/Hachimi-Unity2020/releases)下载最新的`hachimi_installer.exe`，打开它并点击 Install。如果你不知道里面的选项是什么意思，就请不要修改。
--**手动安装**：从[发布页面](https://github.com/Hachimi-Hachimi/Hachimi-Unity2020/releases)下载最新的`hachimi.dll`并将其放在游戏安装目录，并将其重命名为`winhttp.dll``version.dll`或`opengl32.dll`。
+-**手动安装**：从[发布页面](https://github.com/Hachimi-Hachimi/Hachimi-Unity2020/releases)下载最新的`hachimi.dll`并将其放在游戏安装目录，并将其重命名为`winhttp.dll`，`version.dll`或`opengl32.dll`。
 
 ### Android
 
