@@ -7,6 +7,13 @@
   <img src="https://contrib.rocks/image?repo=Hachimi-Hachimi/Hachimi" />
 </a>
 
+## [Website](https://github.com/Hachimi-Hachimi/hachimi-hachimi.github.io)
+- Maintainer: LeadRDRK
+- Contributors:
+<a href="https://github.com/Hachimi-Hachimi/hachimi-hachimi.github.io/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Hachimi-Hachimi/hachimi-hachimi.github.io" />
+</a>
+
 ## [English translations](https://github.com/Hachimi-Hachimi/tl-en)
 - Maintainer: LeadRDRK
 - Contributors:
