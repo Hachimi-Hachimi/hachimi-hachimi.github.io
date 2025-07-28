@@ -70,7 +70,8 @@ const vitePressConfig: UserConfig = {
         nav: [
           { text: 'Home', link: '/' },
           { text: 'Screenshots', link: '/#screenshots' },
-          { text: 'Docs', link: '/docs' }
+          { text: 'Docs', link: '/docs' },
+          { text: 'Credits', link: '/credits' }
         ]
       }
     },
