@@ -53,12 +53,12 @@ APK ファイルは、[Qoopy](https://qoopy.leadrdrk.com/)を使ってダウン�
 
 ### 「この端末でのプレイは許可されていません (You are not authorized to play on this device)」というエラーが発生する
 
-端末がルート化されている場合は、ゲームからルート化をわからなくする必要があります。Magisk の denylistは、Shamiko などの他のツールと同様に機能するようです。
+端末がルート化されている場合は、ゲームからルート化をわからなくする必要があります。Magisk の denylist は、Shamiko などの他のツールと同様に機能するようです。
 もし、ルート化*されていない*のであれば、ゲームを始めるときにVPNが必要である可能性があります。「ゲームを開始しようとした際に、"Communication error" が発生する」の項目をご確認ください。
 
 ### I/O error: Permission denied (os error 13)
 
-Android 10で導入された対象範囲別ストレージにより、Hachimi がデータディレクトリを作成できなくなっている可能性があります。
+Android 10 で導入された対象範囲別ストレージにより、Hachimi がデータディレクトリを作成できなくなっている可能性があります。
 回避策として、ファイルマネージャーを開き、 `Android/media` フォルダに移動して「jp.co.cygames.umamusume」という名前でフォルダを作成してください。ゲームを再起動すると、エラーが解決するはずです。
 
 ### I/O error: File exists (os error 17)
@@ -67,7 +67,7 @@ Android 10で導入された対象範囲別ストレージにより、Hachimi �
 
 ### 起動後にクラッシュする
 
-ファイルマネージャーを開き、`Android/media` に移動し、「jp.co.cygames.umamusume」という名前でフォルダを作成します。そのフォルダ内に「hachimi」という名前でフォルダを作成して、最後に、以下の設定ファイルをダウンロードし、「hachimi」フォルダ内に配置します（ダウンロードしたファイル名が「config.json」になっていることを確認してください）。
+ファイルマネージャーを開いて `Android/media` に移動し、「jp.co.cygames.umamusume」という名前でフォルダを作成します。そのフォルダ内に「hachimi」という名前でフォルダを作成して、最後に、以下の設定ファイルをダウンロードし、「hachimi」フォルダ内に配置します（ダウンロードしたファイル名が「config.json」になっていることを確認してください）。
 
 [設定ファイルをダウンロードする](https://files.leadrdrk.com/hachimi/android-compat/config.json)
 
