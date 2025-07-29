@@ -1,3 +1,6 @@
+# Awal Mula
+<small>
+
 ## ⚠️ Harap jangan share tautan langsung ke situs web ini atau repo GitHub
 Kami mengerti bahwa kalian ingin membantu orang-orang memasang Hachimi dan bisa merasakan pengalaman bermain game yang lebih baik. Akan tetapi, proyek ini pada dasarnya melanggar TOS game dan Developer pasti ingin proyek ini dihapus jika mereka mengetahuinya.
 
@@ -67,7 +70,7 @@ Ketika menginstall pertamakali, installer akan meminta permintaan untuk enable D
 5. Pindahkan `umamusume.exe.local` ganti nama menjadi `apphelp.dll`.
 
 ::: info
-Tips untuk kamu yang ingin bermain LoL/Valorant: Kamu harus disable DLL redirection setiap kali kamu ingin bermain game tersebut. Kamu bisa dengan mudah langsung enable/disable menggunakan: https://github.com/LeadRDRK/DotLocalToggle/releases. Jalankan sampai muncul disabled DLL redirection dan restar komputer kamu.
+Tips untuk kamu yang ingin bermain LoL/Valorant: Kamu harus disable DLL redirection setiap kali kamu ingin bermain game tersebut. Kamu bisa dengan mudah langsung enable/disable menggunakan: [di sini](https://github.com/LeadRDRK/DotLocalToggle/releases). Jalankan sampai muncul disabled DLL redirection dan restar komputer kamu.
 :::
 
 #### Metode 2: Plugin shimming (cri_mana_vpx.dll)
@@ -96,7 +99,7 @@ Jangan download APK dari APKPure, akan ada masalah nantinya.
 :::
 
 1. Download dan install versi terbaru UmaPatcher di [Releases page](https://github.com/LeadRDRK/UmaPatcher/releases).
-2. Persiapkan instalasi package game, bahan-bahannya :
+2. Persiapkan instalasi package game unduh terlebih dahulu di [Qoopy](https://qoopy.leadrdrk.com) dan cari dengan kode 6172, bahan-bahannya :
     - **Split APK files:** basis APK file split config APK (config.arm64_v8a, config.armeabi-v7a, etc.),
     pilih salah satu yang mendukung device (HP) kamu sekarang.
     Untuk sekarang yang didukung hanya versi JP.
