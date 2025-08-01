@@ -8,7 +8,7 @@
 You may need a VPN to connect to the game.  See [this page](https://gametora.com/umamusume/playing-on-dmm) for more details.
 If you have both the global Steam version and the Japanese DMM version of the game installed, you will need to enable case sensitivity in the game's data download directory, `C:\Users\YOUR_USERNAME_HERE\AppData\LocalLow\Cygames`:
 1. Move everything out of C:\Users\YOUR_USERNAME_HERE\AppData\LocalLow\Cygames temporarily. This folder needs to be empty! If you have both versions of the game installed, temporarily rename one version's folder or Windows will attempt to overwrite the files when you move them. (Add a 1 to the end of the folder or something similar.)
-2. Open a Powershell window type the following: `fsutil.exe file setCaseSensitiveInfo C:\Users\YOUR_USERNAME_GOES_HERE\AppData\LocalLow\Cygames enable`
+2. Open a PowerShell window type the following: `fsutil.exe file setCaseSensitiveInfo C:\Users\YOUR_USERNAME_HERE\AppData\LocalLow\Cygames enable`
 3. Put all your files back into your Cygames folder. Global uses "Umamusume", JP uses "umamusume".
 
 ### Physics (hair, clothing, etc.) are stiff when running at 60+ FPS
