@@ -8,7 +8,7 @@
 You may need a VPN to connect to the game.  See [this page](https://gametora.com/umamusume/playing-on-dmm) for more details.
 If you have both the global Steam version and the Japanese DMM version of the game installed, you will need to enable case sensitivity in the game's data download directory, `C:\Users\YOUR_USERNAME_HERE\AppData\LocalLow\Cygames`:
 1. Move everything out of C:\Users\YOUR_USERNAME_HERE\AppData\LocalLow\Cygames temporarily. This folder needs to be empty! If you have both versions of the game installed, temporarily rename one version's folder or Windows will attempt to overwrite the files when you move them. (Add a 1 to the end of the folder or something similar.)
-2. Open a Powershell window type the following: `fsutil.exe file setCaseSensitiveInfo {path to your \LocalLow\Cygames} enable`
+2. Open a Powershell window type the following: `fsutil.exe file setCaseSensitiveInfo C:\Users\YOUR_USERNAME_GOES_HERE\AppData\LocalLow\Cygames enable`
 3. Put all your files back into your Cygames folder. Global uses "Umamusume", JP uses "umamusume".
 
 ### Physics (hair, clothing, etc.) are stiff when running at 60+ FPS
@@ -27,6 +27,11 @@ After you've installed Hachimi on the Japanese DMM version of the game, you need
 <!-- 
     TODO: add more details about weird edge cases like old unsupported versions of CarrotJuicer?
 -->
+
+### Steam: Corrupted text and images
+
+If you accidentally installed translations on the Steam version, you will see corrupted text and images. This can be fixed by disabling translations. 
+Open the Hachimi overlay with the right arrow key, the open the Config Editor and check the "Disable translations" checkbox. After this, restart the game.
 
 ### Steam: Can't open the Steam overlay
 
@@ -54,6 +59,14 @@ If your screen have an aspect ratio that's not 16:9, please use the Exclusive fu
 
 Make sure that you selected both of the split APK files (base and config) or the combined XAPK file. You can tap and hold to select multiple files in the file picker. 
 The recommended place to get the APKs from is [Qoopy](https://qoopy.leadrdrk.com/), use ID 6172. If you're on a Xiaomi device, try disabling MIUI optimization, it can potentially mess with the install.
+
+### Cannot log in via a Google Play account
+
+You cannot log in to the patched version of the game using a Google Play account and must use a Data Link password instead. 
+If you have a Data Link password already created, log in to that account from the title screen (☰ > Data Link). 
+If you *don't* have a Data Link password, you will need to uninstall the patched version of the game, reinstall the unpatched version of the game, log in via your Google Play account, then create a Data Link password. 
+After that, you can repeat the patching process and then log in using the created Data Link password.
+Alternatively, you may log in to a Cygames ID to link your account data.
 
 ### この端末でのプレイは許可されていません (You are not authorized to play on this device) error 
 

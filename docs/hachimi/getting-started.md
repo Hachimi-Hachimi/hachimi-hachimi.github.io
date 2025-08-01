@@ -105,6 +105,13 @@ If you have already installed the game, you must uninstall it before installing 
 Do not get your APK from APKPure, it's known to cause problems.
 :::
 
+::: info
+If you already have save data for the unpatched game, create a Data Link password before installing the patched version of the game if you haven't already. 
+You cannot log in to the patched version of the game using your Google Play account, and using Data Link password is the easiest way to transfer your progress.
+Alternatively, you may use a Cygames ID to sync your account data.
+:::
+
+
 1. Download and install the latest version of UmaPatcher from the [Releases page](https://github.com/LeadRDRK/UmaPatcher/releases).
 2. Prepare an installation package for the game, which can be:
     - **Split APK files:** A base APK file and one of the split config APKs (config.arm64_v8a, config.armeabi-v7a, etc.),
