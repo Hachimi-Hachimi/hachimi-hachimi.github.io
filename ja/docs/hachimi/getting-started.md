@@ -143,6 +143,11 @@ Google Play アカウントを使用してパッチ適用済みのゲームに�
 - インストーラーを使う方法: 最新の `hachimi_installer.exe` を[リリースページ](https://github.com/Hachimi-Hachimi/Hachimi-Unity2020/releases)からダウンロードして起動し、インストールボタンをクリックします。各オプションの意味がわからない場合は、何も変更する必要はありません。
 - 手動でやる方法: 最新の `hachimi.dll` を[リリースページ](https://github.com/Hachimi-Hachimi/Hachimi-Unity2020/releases)からダウンロードした後、ファイルをゲームのインストールフォルダに移動し、ファイル名を `winhttp.dll`、`version.dll`、`opengl32.dll` のいずれかに変更します。
 
+::: tip
+もし Hachimi の翻訳機能を使用しない場合は、Hachimi をインストールした後でゲームを初めて起動する際に、初期セットアップのウィンドウを閉じることで無効にすることができます。
+また、グローバル版に翻訳機能を使用すると、テクスチャが破損する可能性があります。翻訳を無効にし（設定エディタ（Config Editor）から「General」タブの「Disable translations」にチェックを入れる）、ゲームを再起動すると解決します。
+:::
+
 ### Android
 
 ::: warning

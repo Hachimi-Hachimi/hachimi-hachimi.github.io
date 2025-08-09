@@ -7,8 +7,12 @@
 
 ゲームと接続するために、VPNが必要な可能性があります。詳細は[こちらのページ](https://gametora.com/umamusume/playing-on-dmm)からご確認ください。
 もし Steam のグローバル版と、DMM の日本語版の両方がインストールされている場合、ゲームがダウンロードされているフォルダ（`C:\Users\あなたのユーザー名\AppData\LocalLow\Cygames`）の大文字小文字の区別を有効化する必要があります。
+::: info
+`あなたのユーザー名`の部分を、実際のあなたのWindowsのユーザー名に変更してください。
+:::
 1. `C:\Users\あなたのユーザー名\AppData\LocalLow\Cygames` 内のすべてのデータを一時的に退避する必要があります。このフォルダは空である必要があります。もし両方のバージョンがインストールされている場合は、一時的に片方のバージョンのフォルダ名を変更してください。（フォルダ名に「1」を追加するなど）移動する際に Windows によってファイルが上書きされてしまう可能性があります。
 2. PowerShell を開き `fsutil.exe file setCaseSensitiveInfo C:\Users\あなたのユーザー名\AppData\LocalLow\Cygames enable` と入力し、実行します。
+    - エラーが発生した場合は、PowerShellを管理者権限で起動し、`Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux`と入力し、実行してからもう一度やり直して下さい。
 3. すべてのファイルを Cygames フォルダ内に戻して下さい。グローバル版は「Umamusume」、日本語版は「umamusume」です。
 
 ### 60 FPS以上で動作させるときに、髪や衣装などの物理演算が固くなる
