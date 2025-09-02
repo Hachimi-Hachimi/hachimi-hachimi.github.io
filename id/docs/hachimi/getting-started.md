@@ -48,8 +48,7 @@ Harap cek terlebih dahulu kompabilitasnya.
 
 Proses instalasi berbeda-beda tergantung pada versi permainan. Klik salah satu dari opsi berikut untuk melihatnya.
 
-<details>
-JP</summary>
+<details><summary style="font-size: 20px; font-weight: 600;">JP</summary>
 
 ### Windows
 
@@ -144,8 +143,7 @@ Kamu harus menginstalnya kembali setiap kali aplikasi mendapatkan update.
 
 </details>
 
-<details>
-### Global / TW / CN
+<details><summary style="font-size: 20px; font-weight: 600;">Global / TW / CN</summary>
 
 ### Windows
 
