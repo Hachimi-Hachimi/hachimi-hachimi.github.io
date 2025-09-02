@@ -49,7 +49,7 @@ Harap cek terlebih dahulu kompabilitasnya.
 Proses instalasi berbeda-beda tergantung pada versi permainan. Klik salah satu dari opsi berikut untuk melihatnya.
 
 <details>
-<summary style="font-size: 20px; font-weight: 600;">JP</summary>
+JP</summary>
 
 ### Windows
 
@@ -142,8 +142,9 @@ Kamu harus menginstalnya kembali setiap kali aplikasi mendapatkan update.
    Lalu ubah namanya menjadi `libmain.so`.
 5. Build kembali file APK dan instal.
 
----
+</details>
 
+<details>
 ### Global / TW / CN
 
 ### Windows
@@ -168,7 +169,7 @@ Hachimi tidak bisa digunakan di versi ini tanpa root.
 #### Zygisk
 Unduh file zip Zygisk terbaru dari [Halaman Rilis](https://github.com/Hachimi-Hachimi/Hachimi-Unity2020/releases) dan instal menggunakan Magisk atau KernelSU (dengan Zygisk Next).
 
----
+</details>
 
 ## Setup Pertama Kali
 Saat meluncurkan game untuk pertama kali setelah menginstal Hachimi, kamu akan disambut dengan dialog berikut:
