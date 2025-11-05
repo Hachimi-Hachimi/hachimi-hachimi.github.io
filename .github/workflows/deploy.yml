@@ -61,7 +61,7 @@ jobs:
 
   # Deployment job
   deploy:
-    if: github.repository == 'Hachimi-Hachimi/hachimi-hachimi.github.io'
+    if: github.repository == 'UmaTL/hachimi-site'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
