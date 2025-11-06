@@ -3,36 +3,39 @@
 layout: home
 
 hero:
-  name: "Hachimi"
-  text: "Game enhancement and translation mod"
-  tagline: For UM:PD
+  name: "Hachimi Edge"
+  text: "UM:PD translation and enhancement mod"
+  tagline: For Windows and Android.
   image:
     src: /assets/logo.png
     alt: Hachimi
   actions:
     - theme: brand
       text: Get Started
-      link: /docs/hachimi/getting-started.html
+      link: /docs
     - theme: alt
       text: View on GitHub
-      link: https://github.com/Hachimi-Hachimi/Hachimi
+      link: https://github.com/kairusds/Hachimi-Edge
     - theme: alt
       text: Discord
       link: https://discord.gg/BVEt5FcxEn
+    - theme: alt
+      text: Credits
+      link: /credits
 
 features:
   - icon: 🚀
-    title: Easy to install
-    details: Simple one-click installer makes installation a breeze. No patching whatsoever. All setup is done in-game, just plug and play.
-  - icon: 🖥️
-    title: Built-in GUI
-    details: Convenient user interface lets you modify settings easily, among other features.
+    title: Easy to use
+    details: Comes with an installer and convenient in-game GUI. No patching whatsoever. Translations update automatically.
+  - icon: 🌍
+    title: Multilingual translations
+    details: Indexes translations from different community projects, allowing easy access and source switching.
   - icon: 📝
-    title: High quality translations
-    details: Comes with advanced translation features that help translations feel more natural.
-  - icon: 🪄
-    title: Game enhancement tweaks
-    details: Including graphics settings which you can adjust to fit your needs.
+    title: Text augmentation
+    details: Provides specialized text features that help translations feel more natural and improves support for different langauges.
+  - icon: 🖥️
+    title: Game tweaks
+    details: Includes a number of other features and settings which you can adjust to fit your needs.
 ---
 
 ## Screenshots {#screenshots}

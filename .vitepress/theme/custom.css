@@ -35,6 +35,15 @@ img {
     width: 100%;
 }
 
+.collapsible-header {
+    font-size: 18px;
+    font-weight: 600;
+}
+.collapsible-header-sub {
+    font-size: 16px;
+    font-weight: 600;
+}
+
 @media (min-width: 640px) {
     :root {
         --vp-home-hero-image-filter: blur(56px);

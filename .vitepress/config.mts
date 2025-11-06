@@ -58,7 +58,7 @@ const vitePressConfig: UserConfig = {
   themeConfig: {
     logo: "/assets/logo.png",
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/Hachimi-Hachimi/Hachimi' },
+      { icon: 'github', link: 'https://github.com/kairusds/Hachimi-Edge' },
       { icon: 'discord', link: 'https://discord.gg/BVEt5FcxEn' }
     ]
   },

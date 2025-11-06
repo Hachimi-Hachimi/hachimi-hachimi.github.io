@@ -1,5 +1,9 @@
 # Using ZokuZoku
-ZokuZoku is a Visual Studio Code extension which acts as the main translation tool for Hachimi. It allows you to work on translations without having to edit the JSON dict files directly.
+ZokuZoku is a Visual Studio Code extension which helps create and modify translations for Hachimi through a GUI with multiple nifty features. It allows you to work on translations without having to edit the JSON dict files directly.
+
+::: warning
+Since a game update, ZokuZoku no longer supports dialogue content. Check out the [Legacy UmaTL tools](https://github.com/noccu/umamusu-translate) for that, which will also see an overall update soon.
+:::
 
 ## Installation
 ### Prerequisites
@@ -17,10 +21,10 @@ The following files are required by ZokuZoku:
 
 ZokuZoku will also automatically detect this file if it was created using the DMM version of the game, following the procedure above, so make sure to do it at least once before installing. You'll need to dump it again whenever the game client updates if you want to keep it updated, otherwise if you don't work on UI translations, you could ignore it.
 
-And of course, you'll also need an existing translation repository to work with. For the EN translation repo, it can be cloned or downloaded from [Hachimi-Hachimi/tl-en](https://github.com/Hachimi-Hachimi/tl-en)
+And of course, you'll also need an existing translation repository to work with. Check out [the current ones](/credits) or make your own.
 
 ### Installing
-Download the .vsix file for the latest version on the [Releases](https://github.com/Hachimi-Hachimi/ZokuZoku/releases) page. To install it, open the Extensions panel in VSCode, click on the 3 dots button on the top right, choose "Install from VSIX..." and select the file you just downloaded.
+Install from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=LeadRDRK.zokuzoku) or download the .vsix file for the latest version on the [Releases](https://github.com/Hachimi-Hachimi/ZokuZoku/releases) page, open the Extensions panel in VSCode, click on the 3 dots button on the top right, choose "Install from VSIX..." and select the file you just downloaded.
 
 ![Translation section in menu](/assets/translation-guide/using-zokuzoku/3.webp)
 

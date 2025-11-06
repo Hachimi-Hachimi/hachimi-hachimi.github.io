@@ -1,5 +1,5 @@
 # Welcome
-Welcome to the Hachimi translation guide! This guide will introduce you to the Hachimi translation system, how it works and how to use the ZokuZoku translation tool.
+Welcome to the Hachimi translation guide! This guide will introduce you to the Hachimi translation system, how it works, and how to use the ZokuZoku translation tool.
 
 ## Glossary
 Before reading the guide, be sure to familiarize yourself with a few terminologies which will be used throughout the articles.

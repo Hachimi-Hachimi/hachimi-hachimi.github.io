@@ -5,21 +5,23 @@ title: About
 # Hachimi
 [![Discord server](https://dcbadge.limes.pink/api/server/https://discord.gg/BVEt5FcxEn)](https://discord.gg/BVEt5FcxEn)
 
-Game enhancement and translation mod for UM:PD.
+Game translation and enhancement mod for UM:PD.
 
 ![Screenshot](/assets/screenshot.jpg)
 
 # Features
-- **High quality translations:** Hachimi comes with advanced translation features that help translations feel more natural (plural forms, ordinal numbers, etc.) and prevent introducing jank to the UI. It also supports translating most in-game components; no manual assets patching needed!
+- **Advanced text formatting:** Hachimi comes with advanced translation features that help translations feel more natural (plural forms, ordinal numbers, etc.) and prevent introducing jank to the UI. 
 
+- **Translates most in-game components:** No manual asset patching needed!
     Supported components:
     - UI text
-    - master.mdb (skill name, skill desc, etc.)
-    - Race story
-    - Main story/Home dialog
+    - Dynamic game text from master.mdb (skills, names, descriptions, effects, etc.)
+    - Game dialogue (main story, home interactions, character stories, etc.)
     - Lyrics
-    - Texture replacement
-    - Sprite atlas replacement
+    - Texture & sprite replacement
+    - Video replacement
+    - Internal game object adjustments
+    - Hashed text fallback
 
     Additionally, Hachimi does not provide translation features for only a single language; it has been designed to be fully configurable for any language.
 
