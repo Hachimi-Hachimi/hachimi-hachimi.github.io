@@ -1,5 +1,5 @@
 # Translation system
-Before getting into the process of making translations, let's have a look at how Hachimi handles translations in the first place. You don't need to fully understand everything that's being explained here, but it's a good idea to have a brief understand of how things work so you wouldn't be confused while making your translations.
+Before getting into the process of making translations, let's have a look at how Hachimi handles translations in the first place. You don't need to fully understand everything that's being explained here, but it's a good idea to have a brief understanding of how things work so you wouldn't be confused while making your translations.
 
 ::: info
 If you also want to know how the translation dicts are formatted/organized, you should navigate around the `localized_data` directory to check them out while reading this article. You can do that by browsing your local copy at `[Game install dir]/hachimi/localized_data` if you have Hachimi installed, or you could browse the [UmaTL](https://github.com/UmaTL/hachimi-tl-en) repository on GitHub.
