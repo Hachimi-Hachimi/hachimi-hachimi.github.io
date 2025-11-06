@@ -11,7 +11,7 @@ If you have both the global Steam version and the Japanese DMM version of the ga
 Make sure you replace the `YOUR_USERNAME_HERE` text in the following file paths with your Windows username.
 :::
 1. Move everything out of `C:\Users\YOUR_USERNAME_HERE\AppData\LocalLow\Cygames` temporarily. This folder needs to be empty! If you have both versions of the game installed, temporarily rename one version's folder or Windows will attempt to overwrite the files when you move them. (Add a 1 to the end of the folder or something similar.)
-2. Open a PowerShell window type the following: `fsutil.exe file setCaseSensitiveInfo C:\Users\YOUR_USERNAME_HERE\AppData\LocalLow\Cygames enable`
+2. Open a PowerShell window and paste in the following command: `fsutil.exe file setCaseSensitiveInfo $env:USERPROFILE\AppData\LocalLow\Cygames enable`
     - If you receive an error, open a PowerShell window as an administrator and run the following command: `Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux`, then re-run the previous command.
 3. Put all your files back into your Cygames folder. Global uses "Umamusume", JP uses "umamusume".
 
@@ -52,7 +52,7 @@ Open the Hachimi overlay with the right arrow key, then open the Config Editor a
 
 The Steam overlay can sometimes interfere with Hachimi's overlay. Disable one of them (Steam recommended). 
 For Hachimi's: open the Hachimi menu and check the "Disable overlay (GUI)" checkbox in the "General" tab, press Save, and restart the game. 
-When you want to re-enable Hachimi's overlay, open Hachimi's config file (config.json) in a text editor and change the `disable_gui` value from `true` back to `false`, then restart the game. This config file is located in the hachimi folder inside the game's installation folder.
+When you want to re-enable Hachimi's overlay, open Hachimi's config file (config.json) in a text editor and change the `disable_gui` value from `true` back to `false`, then restart the game. This config file is located in the `hachimi` folder inside the game's installation folder.
 
 ### DMM: Input registering at the wrong spot on the screen after the window is resized
 
@@ -77,9 +77,9 @@ This is a bug in the game, not Hachimi. Some users can turn on Windows Sonic wit
 ### Patching failed
 
 Make sure that you selected both the base and split APK files, or the combined XAPK file. You can tap and hold to select multiple files in the file picker. 
-The recommended place to get the APKs from is [Qoopy](https://qoopy.leadrdrk.com/), use ID 6172. If you're on a Xiaomi device, try disabling MIUI optimization, it can potentially mess with the install.
+The recommended place to get the APKs from is [Qoopy](https://qoopy.leadrdrk.com/), use ID 6172. If you're on a Xiaomi device, try disabling MIUI Optimizations, it can potentially mess with the install.
 
-Try to clear cache of UmaPatcher Edge, hold the app icon -> app info -> storage -> cache (if applicable) -> clear cache. If this doesn't work, try redownloading the UmaPatcher Edge again and import the signing key again. 
+Try to clear cache of UmaPatcher Edge, hold the app icon -> app info -> storage -> cache (if applicable) -> clear cache. If this doesn't work, try redownloading UmaPatcher Edge and import the signing key again. 
 
 
 ### Cannot log in via a Google Play account
@@ -122,10 +122,10 @@ Open Hachimi's menu -> Config Editor and play with the virtual resolution multip
     - To re-enable it, open Hachimi's config file (config.json) in a text or JSON editor and change the `disable_gui` value from `true` back to `false`, then restart the game. This config file is located in `android/media/jp.co.cygames.umamusume/hachimi` (might differ with phone brand).
 
 ### Patched successfully but no translations
-1. Make sure translations are downloaded and up to date. Run the first time setup again.
+1. Make sure the translations are downloaded and up to date. Run the first time setup again.
 
 If during patching you see a message mentioning `libmain.so` you can try:
-1. Make sure you are on the latest hachimi update
-1. Force redownload Hachimi on umapatcher settings, then patch again.
-1. Reinstalling umapatcher edge or clear app cache and data.
-1. Restart device into recovery mode and wipe cache.
+1. Make sure you are on the latest Hachimi update
+1. Force redownload Hachimi in the UmaPatcher settings, then patch again.
+1. Reinstalling Umapatcher Edge or clearing app cache and data.
+1. Restarting your device into recovery mode and wiping the cache.

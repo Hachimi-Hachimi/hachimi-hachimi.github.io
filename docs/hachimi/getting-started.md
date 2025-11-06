@@ -41,7 +41,7 @@ View this page in other languages:
 
 ### Windows
 
-As of September 24 2025, you need Hachimi Edge v0.14.2 or newer due to a big game update.
+As of September 24th, 2025, you will need to use Hachimi Edge v0.14.2 or newer due to a big game update.
 If you run into issues, check out [Troubleshooting](troubleshooting.md).
 
 ::: warning
@@ -52,8 +52,8 @@ DotLocal is currently only used on the DMM version. Play on Steam to bypass it.
 :::
 
 1. Download the latest [Installer](https://github.com/kairusds/Hachimi-Edge/releases/latest/download/hachimi_installer.exe) and run it. 
-1. If you used non-edge Hachimi before, click unintsall first.
-1. Check the install directory is correct and change it if needed.
+1. If you used non-edge Hachimi before, click Uninstall first.
+1. Check that the install directory is correct and change it if needed.
 1. Choose your game version, and click Install.
 <!-- Todo: show how to find the install dir -->
 
@@ -88,7 +88,7 @@ After that, you can just uninstall Hachimi as normal.
 ### Android
 
 ::: warning
-Patching the game on android will disable the Google Play Store for the game, including purchases. You can try to use the game developer's store.
+Patching the game on Android will disable the Google Play Store for the game, including purchases. You can try to use the game developer's store.
 :::
 
 ::: danger
@@ -105,7 +105,7 @@ The recommended source is [Qoopy](https://qoopy.leadrdrk.com/), use ID 6172.
 :::
 
 ::: tip
-On Xiaomi devices, try disabling MIUI optimization before installing.
+On Xiaomi devices, try disabling MIUI Optimizations before installing.
 :::
 
 1. If you used Umapatcher before, open its settings page and **export the signing key somewhere safe**.
@@ -126,7 +126,7 @@ On Xiaomi devices, try disabling MIUI optimization before installing.
 
 UmaPatcher includes a rooted install option that doesn't require you to uninstall the game nor deal with APKs, letting you update normally from any app store.
 
-With the game installed, tap on the card on top of the pather home screen to select the app that you want to patch (if needed). Then select "Direct install" as the install method and tap on Patch. No input files are needed.
+With the game installed, tap on the card at the top of the patcher's home screen to select the app that you want to patch (if needed). Then select "Direct install" as the install method and tap on Patch. No input files are needed.
 
 You'll need to patch the game with UmaPatcher again whenever the game updates.
 </details>
