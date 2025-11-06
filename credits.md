@@ -21,9 +21,10 @@
 ## [English translations](https://github.com/UmaTL/hachimi-tl-en)
 - Maintainer: noccu
 - Contributors:
-<a href="https://github.com/UmaTL/hachimi-tl-en/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=UmaTL/hachimi-tl-en" />
-</a>
+  <a href="https://github.com/UmaTL/hachimi-tl-en/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=UmaTL/hachimi-tl-en" />
+  </a>
+- [Full credits & Progress](https://github.com/UmaTL/hachimi-tl-en/wiki/Translation-Progress)
 
 Alternate versions:
 - [English with skill data swap](https://github.com/UmaTL/hachimi-tl-en-sd)
