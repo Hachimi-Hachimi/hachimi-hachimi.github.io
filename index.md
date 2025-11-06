@@ -14,14 +14,17 @@ hero:
       text: Get Started
       link: /docs
     - theme: alt
-      text: View on GitHub
-      link: https://github.com/kairusds/Hachimi-Edge
-    - theme: alt
       text: Discord
       link: https://discord.gg/BVEt5FcxEn
     - theme: alt
+      text: Help
+      link: /docs/hachimi/troubleshooting
+    - theme: alt
       text: Credits
       link: /credits
+    - theme: alt
+      text: View on GitHub
+      link: https://github.com/kairusds/Hachimi-Edge
 
 features:
   - icon: 🚀
