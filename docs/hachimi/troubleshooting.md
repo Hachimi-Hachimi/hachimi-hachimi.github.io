@@ -41,6 +41,9 @@ Update your translations. Your source might be out of date, ask its maintainers.
 ### Something isn't translated
 Translations are provided by volunteers in the community offering up their time. Many things are not yet done. Check in with your chosen translation source and try to support its translators.
 
+### Lyrics switch between language randomly
+Unfortunately, this is an unsolved bug introduced by a game update. We are working on it.
+
 ## Windows
 
 ### The game won't start after Hachimi is installed
