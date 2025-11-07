@@ -30,9 +30,7 @@ Global uses "Umamusume" while JP uses "umamusume".
     Remove-Item "$env:USERPROFILE\AppData\LocalLow\CygamesTEMP"
     ```
 
-
 ### Physics (hair, clothing, etc.) are stiff when running at 60+ FPS
-
 Change the "Physics update mode" setting to "Mode60FPS". This setting is available in the Config Editor in the "Gameplay" tab.
 
 ### Corrupted images/sprites
@@ -44,30 +42,38 @@ Translations are provided by volunteers in the community offering up their time.
 ### Lyrics switch between language randomly
 Unfortunately, this is an unsolved bug introduced by a game update. We are working on it.
 
+### Game gets stuck at the splash screen
+If the game gets stuck on the splash screen, see [Global Steam and JP DMM versions constantly ask to redownload data](#global-steam-and-jp-dmm-versions-constantly-ask-to-redownload-data).  
+If you can see the splash screen but the game crashes afterward, see [The game won't start after installing Hachimi](#the-game-won-t-start-after-installing-hachimi).
+
 ## Windows
 
-### The game won't start after Hachimi is installed
+### The game won't start after installing Hachimi
 
-- Make sure you used the right version of Hachimi for your game version (Japanese or Other). Find the right one on the [getting started](getting-started.md) page.
-- Make sure to restart your computer after enabling DotLocal. **Click "Restart" in the shutdown menu, don't just shut down your computer and then turn it back on.**
-- On DMM, try restarting the DMM Launcher.
-- On Steam, game updates can replace some modified files. Uninstall Hachimi using the installer and reinstall it again.
-- Navigate to the game's install folder, right click on the game's exe file, open Properties, and try **one or more** of the following, in order:
-    - Enable `Disable fullscreen optimizations` in the Compatibility tab.
-    - Enable `High DPI override with Application`.
-- Go to `Windows Settings > Display > Graphics`, add the game's exe file there and tick `Don't use optimizations for windowed games` in its options.
-- Force DMM Launcher to run as admin.
+::: warning
+Some kernel-level anti-cheats (such as Vanguard, used in Valorant and League of Legends) prevents Hachimi from launching the game correctly. Make sure they are not running on your computer, then try again.
+:::
+
+- Make sure you installed the correct version of Hachimi for your game version (Japanese or Other). You can find the right one on the [getting started](getting-started.md) page.
+- Restart your computer after enabling DotLocal.  
+  **Click "Restart" in the shutdown menu, don't just shut down and turn it back on.**
+- If you're using DMM, try restarting the DMM Launcher.
+- Force the DMM Launcher to always run as an administrator.
+- Navigate to the game's installation folder, right-click the game's exe file, open **Properties**, and try **one or more** of the following in order:
+  - Enable `Disable fullscreen optimizations` under the Compatibility tab.
+  - Open `Change high DPI settings`, enable `High DPI scaling override`, and set it to `Application`.
+- Open `Windows Settings → Display → Graphics`, add the game's exe file there, and tick `Don't use optimizations for windowed games` in its options.
 
 <!-- 
     TODO: add more details about weird edge cases like old unsupported versions of CarrotJuicer?
 -->
 
-### Global: Corrupted text and images
+### Steam Global: Corrupted text and images
 
-If you accidentally installed translations on the Global version, you will see corrupted text and images. This can be fixed by disabling translations. 
-Open the Hachimi overlay with the right arrow key, then open the Config Editor and check the "Disable translations" checkbox. After this, restart the game.
+If you accidentally installed translations on the Global version, you will see corrupted text and images.  
+To fix it, open the Hachimi overlay with the `Right Arrow` key, go to the `Config Editor` and enable `Disable translations`, then restart the game.
 
-### Steam: Issues with GUI/overlay
+### Steam Global and JP: Issues with GUI/overlay
 
 The Steam overlay can sometimes interfere with Hachimi's overlay. Disable one of them (Steam recommended). 
     
@@ -80,15 +86,22 @@ This is a known issue with Hachimi on the Japanese DMM version of the game (fix 
 
 ### DMM: Can't play certain games after installing Hachimi
 
-The version of Hachimi for the JP DMM version of the game uses DotLocal DLL redirection to load, which some anticheats (such as Vanguard, used in Valorant and League of Legends) hate seeing enabled. 
+The version of Hachimi for the JP DMM version of the game uses DotLocal DLL redirection to load, which some anti-cheats (such as Vanguard, used in Valorant and League of Legends) hate seeing enabled. 
 You need to disable DLL redirection whenever you want to play an affected game. 
 [DotLocalToggle](https://github.com/LeadRDRK/DotLocalToggle/releases/) is a small program that lets you quickly toggle DotLocal DLL redirection.
 Alternatively, play the JP Steam version.
 
-### DMM: In full screen mode: Input registering at the wrong spots on the screen / Game resolution stretched
+### DMM/Steam JP and Global: While in full screen mode - Input registering at the wrong spots / Game resolution appears stretched
 
-Please make sure that you've set the `full_screen_mode` and `resolution_scaling` options correctly. If your screen has a resolution higher than 1080p, please set `resolution_scaling` to one of the other options. 
-If your screen has an aspect ratio that's not 16:9, please use the Exclusive full screen mode.
+::: warning
+On the Global client, the `Full screen mode` option generally works as expected, but changing `Resolution scaling` can break rendering and input behavior even at **1080p** resolution.  
+It's strongly recommended to **keep `Resolution scaling` at its default value** on the Global version.
+:::
+
+- Ensure that the `Full screen mode` and `Resolution scaling` options are set correctly.  
+- If your screen resolution is higher than **1080p**, try selecting a different `Resolution scaling` value.  
+- If your monitor's aspect ratio is not **16:9**, set `Full screen mode` to **Exclusive** instead.
+
 
 ### Sound issues
 This is a bug in the game, not Hachimi. Some users can turn on Windows Sonic without adverse effects to fix it.
@@ -97,11 +110,46 @@ This is a bug in the game, not Hachimi. Some users can turn on Windows Sonic wit
 
 ### Patching failed
 
-- Make sure that you selected both the base and split APK files, or the combined XAPK file. You can tap and hold to select multiple files in the file picker. 
-The recommended place to get the APKs from is [Qoopy](https://qoopy.leadrdrk.com/), use ID 6172. If you're on a Xiaomi device, try disabling MIUI Optimizations, it can potentially mess with the install.
+- Make sure you selected both the **base** and **split APK** files, or the combined **XAPK** file.  
+  You can tap and hold to select multiple files in the file picker.  
+  The recommended place to get the APKs is [Qoopy](https://qoopy.leadrdrk.com/) (use ID **6172**).
 
-- Try to clear cache of UmaPatcher Edge, hold the app icon -> app info -> storage -> cache (if applicable) -> clear cache. If this doesn't work, try redownloading UmaPatcher Edge and import the signing key again. 
+- If you're on a **Xiaomi/POCO** device running **MIUI** (not **HyperOS**), try disabling *MIUI Optimizations* from Developer Options, it can sometimes interfere with the installation.
 
+::: warning
+Disabling **MIUI Optimizations** will reset **all app permissions** and may cause apps to lose granted access (storage, notifications, etc.).
+:::
+
+- Try clearing the **UmaPatcher Edge** cache:  
+  *Hold the app icon → App info → Storage → Cache (if applicable) → Clear cache.*  
+  If that doesn't work, try **redownloading UmaPatcher Edge** and **importing the signing key** again.
+
+### App not installed as app isn't compatible error
+
+::: warning
+These steps are required for some Samsung devices and involve connecting your phone to a PC. They may also work for other Android devices.
+:::
+
+This issue can occur when the game has been *uninstalled* but still remains inside a **Secure Folder**. Follow these steps to completely remove the game.
+
+#### Steps to uninstall the game
+1. **Enable USB Debugging** on your device from Developer Options.  
+   If you don't know how, check this quick guide: [YouTube Short Guide](https://www.youtube.com/shorts/p7DDuq56suU)
+2. **Download and extract** the [Android Platform Tools (ADB)](https://developer.android.com/tools/releases/platform-tools#downloads) ZIP file on your computer.
+3. **Open a Terminal** by right-clicking an empty area inside the extracted ADB folder (where `adb.exe` is located) and selecting **Open in Terminal** (or similar).
+   - Holding **Shift** while right-clicking in Windows 10 should display the **"Open PowerShell window here"** option.
+4. **Connect your device** to the computer via USB (USB-C or any compatible cable).
+5. In the Terminal window, type `adb.exe` and press **Enter** to ensure it's recognized.
+6. Then type `adb devices` and press **Enter**.  
+   Look at your device and **grant USB debugging permission** when prompted, then run the command again to verify the connection.  
+   It should display something like `"ABCD1234EFGH" device` in the Terminal.
+7. Finally, type `adb uninstall jp.co.cygames.umamusume` and press **Enter** to uninstall the game.
+
+#### Unauthorized device troubleshooting
+If typing `adb devices` and pressing **Enter** shows **"unauthorized"** instead of **"device"**:
+1. On your device, **disable USB debugging**, then **re-enable** it.
+2. Reconnect the device and **grant the USB debugging permission** again when prompted.
+3. Repeat the relevant steps above (usually steps 5–7).
 
 ### Cannot log in via a Google Play account
 
@@ -111,10 +159,13 @@ If you *don't* have a Data Link password, you will need to uninstall the patched
 After that, you can repeat the patching process and then log in using the created Data Link password.
 Alternatively, you may log in to a Cygames ID to link your account data.
 
-### この端末でのプレイは許可されていません (You are not authorized to play on this device) error 
+### この端末でのプレイは許可されていません (You are not permitted to play on this device) error
 
-If your device is rooted, you will need to hide root from the game. Magisk's denylist appears to work, as do other tools such as Shamiko. 
-If you *aren't* rooted and are receiving this error message, you may need to use a VPN when starting the game. See the "Communication error" section.
+#### Your device is rooted
+ - Make sure your connection is stable and that the device is passing at least **DEVICE_INTEGRITY** on the Play Integrity servers (you can verify this using the [Play Integrity API Checker](https://play.google.com/store/apps/details?id=gr.nikolasspyr.integritycheck) app). If it passes, hiding root from the game using **Magisk's built-in DenyList** (enable *Enforce DenyList* if it doesn't work) should make it work. Other tools such as **Shamiko** may also do the trick.
+
+#### Your device is not rooted
+ - If this error message continues to show on your device, it may indicate an unstable connection to the Play Integrity servers, or that you need to use a **VPN** when launching the game. See the [Communication error](#communication-error-messages-when-attempting-to-start-the-game) section for more details.
 
 ### I/O error: Permission denied (os error 13)
 
