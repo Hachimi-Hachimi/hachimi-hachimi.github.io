@@ -51,7 +51,7 @@ const vitePressSidebarConfig = [
 // https://vitepress.dev/reference/site-config
 const vitePressConfig: UserConfig = {
   title: "Hachimi",
-  description: "Game enhancement and translation mod for UM:PD",
+  description: "Game translation and enhancement mod for UM:PD",
   head: [
     ['link', { rel: "shortcut icon", href: "/favicon.ico"}]
   ],
