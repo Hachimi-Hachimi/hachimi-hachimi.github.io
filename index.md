@@ -32,7 +32,7 @@ features:
     details: Comes with an installer and convenient in-game GUI. No patching whatsoever. Translations update automatically.
   - icon: 🌍
     title: Multilingual translations
-    details: Indexes translations from different community projects, allowing easy access and source switching.
+    details: Indexes translations from different community projects, allowing easy access and source switching. Check credits for a list.
   - icon: 📝
     title: Text augmentation
     details: Provides specialized text features that help translations feel more natural and improves support for different langauges.
@@ -40,6 +40,8 @@ features:
     title: Game tweaks
     details: Includes a number of other features and settings which you can adjust to fit your needs.
 ---
+
+Hachimi Edge is a fork of the unmaintained [Hachimi](https://hachimi.leadrdrk.com) mod. It was made to fix issues after the game update on 2025/09/24 and has since incorporated additional features and fixes by various community members. Should Hachimi's developer return, Edge will likely be merged back and discontinued.
 
 ## Screenshots {#screenshots}
 

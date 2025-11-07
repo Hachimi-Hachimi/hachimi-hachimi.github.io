@@ -10,7 +10,7 @@
   <img src="https://contrib.rocks/image?repo=kairusds/Hachimi-Edge" />
 </a>
 
-## [Website](https://hachimi.noccu.art)
+## [Website](https://github.com/UmaTL/hachimi-site)
 - Orignal Author: LeadRDRK
 - Edge Maintainer: noccu
 - Contributors:
