@@ -35,7 +35,7 @@ features:
     details: Indexes translations from different community projects, allowing easy access and source switching. Check credits for a list.
   - icon: 📝
     title: Text augmentation
-    details: Provides specialized text features that help translations feel more natural and improves support for different langauges.
+    details: Provides specialized text features that help translations feel more natural and improves support for different languages.
   - icon: 🖥️
     title: Game tweaks
     details: Includes a number of other features and settings which you can adjust to fit your needs.
