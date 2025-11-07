@@ -18,6 +18,7 @@ View this page in other languages:
 | JP (Steam) | ✅ |
 | KR | ❌ |
 | Global | ✅ |
+| Emulators (any region) | ❌ |
 
 ### Android
 

@@ -8,7 +8,7 @@
 - In some regions, you might need a VPN to connect to the game itself. See [this page](https://gametora.com/umamusume/playing-on-dmm) for more details.
 - If both the **Global Steam** and **Japanese DMM** version of the game are installed, [try the steps for the constant redownloading issue below](#global-and-dmm-versions-constantly-ask-to-redownload-data).
 
-### Global and DMM versions constantly ask to redownload data
+### Global Steam and JP DMM versions constantly ask to redownload data
 Both versions use the same data download directory name with different capitalization.
 Case sensitivity must be enabled on this directory for them to work together.
 ::: tip
@@ -51,6 +51,7 @@ Unfortunately, this is an unsolved bug introduced by a game update. We are worki
 - Make sure you used the right version of Hachimi for your game version (Japanese or Other). Find the right one on the [getting started](getting-started.md) page.
 - Make sure to restart your computer after enabling DotLocal. **Click "Restart" in the shutdown menu, don't just shut down your computer and then turn it back on.**
 - On DMM, try restarting the DMM Launcher.
+- On Steam, game updates can replace some modified files. Uninstall Hachimi using the installer and reinstall it again.
 - Navigate to the game's install folder, right click on the game's exe file, open Properties, and try **one or more** of the following, in order:
     - Enable `Disable fullscreen optimizations` in the Compatibility tab.
     - Enable `High DPI override with Application`.
