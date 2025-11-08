@@ -29,19 +29,16 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /docs
+      link: /docs/hachimi/getting-started
     - theme: alt
       text: Discord
       link: https://discord.gg/BVEt5FcxEn
     - theme: alt
-      text: Help
+      text: Troubleshooting
       link: /docs/hachimi/troubleshooting
     - theme: alt
       text: Credits
       link: /credits
-    - theme: alt
-      text: View on GitHub
-      link: https://github.com/kairusds/Hachimi-Edge
 
 features:
   - icon: 🚀
@@ -58,7 +55,14 @@ features:
     details: Includes a number of other features and settings which you can adjust to fit your needs.
 ---
 
-Hachimi Edge is a fork of the unmaintained [Hachimi](https://hachimi.leadrdrk.com) mod. It was made to fix issues after the game update on 2025/09/24 and has since incorporated additional features and fixes by various community members. Should Hachimi's developer return, Edge will likely be merged back and discontinued.
+## About
+
+Hachimi Edge is a fork of the unmaintained [Hachimi](https://hachimi.leadrdrk.com) mod. It was made to quickly serve issues fixed after the game update on 2025/09/24 to users, and has since incorporated additional features and fixes by various community members. If you are still using the original Hachimi, please uninstall it and install Edge to resolve issues. Should Hachimi's developer return, Edge will likely be merged back and discontinued.
+
+## Translations
+
+Translations are sourced from various community projects. Hachimi provides a framework to modify the game, it does not do any translation itself.
+Check out the sources in more detail on the [credits page](credits.md).
 
 ## Screenshots {#screenshots}
 

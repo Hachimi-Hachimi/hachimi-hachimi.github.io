@@ -1,12 +1,8 @@
 # Documentation
-Welcome to the Hachimi Edge documentation page!
+Welcome to the Hachimi Edge documentation page!  
+Check out all topics on the left sidebar. On mobile, you can find them in the menu at the top left.
 
-::: warning
-This project is inherently against the game's TOS and The Game Developer would likely want it gone if they were ever to learn about it.  
-Use at your own risk, and please share names and links in a responsible manner. The community asks you to particularly refrain from doing so in places where it would attract certain attention from the developers.
-:::
-
-## New users
+## Installing Hachimi
 Check out the [Getting Started](/docs/hachimi/getting-started) page.
 
 ## Contributing as a translator
@@ -14,3 +10,6 @@ Check out the [Translation guide](/docs/translation-guide/welcome) and contact [
 
 ## Creating your own translation source
 Follow one of the existing projects for reference and submit your project [here](https://github.com/UmaTL/hachimi-meta).
+
+## Contributing to Hachimi Edge
+Check out the [GitHub repo](https://github.com/kairusds/Hachimi-Edge).

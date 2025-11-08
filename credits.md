@@ -2,7 +2,7 @@
 
 [Submit your own translation source](https://github.com/UmaTL/hachimi-meta)
 
-## Mod
+## [Mod](https://github.com/kairusds/Hachimi-Edge)
 - Original Author: LeadRDRK ([Hachimi](https://github.com/Hachimi-Hachimi/Hachimi))
 - Edge Maintainer: harveyhans
 - Contributors:
