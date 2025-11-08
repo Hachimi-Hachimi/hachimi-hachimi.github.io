@@ -51,7 +51,7 @@ const vitePressSidebarConfig = [
 // https://vitepress.dev/reference/site-config
 const vitePressConfig: UserConfig = {
   title: "Hachimi",
-  description: "Game translation and enhancement mod for UM:PD",
+  description: "Game translation and enhancement mod for Umamusume. Maintained fork of Hachimi, with updates and improvements.",
   head: [
     ['link', { rel: "shortcut icon", href: "/favicon.ico"}]
   ],
@@ -141,6 +141,9 @@ const vitePressConfig: UserConfig = {
         ]
       }
     }
+  },
+  sitemap: {
+    hostname: "https://hachimi.noccu.art"
   }
 };
 
