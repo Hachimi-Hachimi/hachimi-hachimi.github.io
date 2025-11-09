@@ -24,6 +24,8 @@ const commonSidebarConfig: VitePressSidebarOptions = {
     'hachimi',
     'about.md',
     'getting-started.md',
+    'getting-started-jp.md',
+    'getting-started-other.md',
     'troubleshooting.md',
     'built-in-gui.md',
     'config.md',
