@@ -8,7 +8,7 @@
 - After launching, most users do not need a VPN to connect to the game itself, and it can cause issues instead. Check that you have turned it off or use split tunneling (if supported). **In some regions, you *do* need a VPN to connect**. 
   - You can check by accessing the [official API website](https://api-umamusume.cygames.jp). If you get `404 Not Found`, you don't need a VPN. `Access Denied` means you do.
   - See [this guide](https://gametora.com/umamusume/playing-on-dmm) to get started with VPN, and [this guide](https://docs.google.com/document/d/18m9wHT4_AIh5ePKSo_ZYH9nSgNh492YQx76bIxmgqyc/edit?tab=t.0#heading=h.7cq4imx1gkqf) for an alternative VPN solution.
-- If both the **Global Steam** and **Japanese DMM** version of the game are installed, [try the steps for the constant redownloading issue below](#global-steam-and-jp-dmm-versions-constantly-ask-to-redownload-data).
+- If both the **Global Steam** and **Japanese DMM** version of the game are installed, [try the steps for the Error 501 issue](#error-501).
 
 ### Physics (hair, clothing, etc.) are stiff when running at 60+ FPS
 Change the "Physics update mode" setting to "Mode60FPS". This setting is available in the Config Editor in the "Gameplay" tab.
@@ -27,7 +27,7 @@ Translations are provided by volunteers in the community offering up their time.
 This bug has been fixed. Update Hachimi to v0.15.1 or later.
 
 ### Game won't load beyond the splash screen
-If the game **gets stuck** on the splash screen, see [Global Steam and JP DMM versions constantly ask to redownload data](#global-steam-and-jp-dmm-versions-constantly-ask-to-redownload-data).  
+If the game **gets stuck** on the splash screen, see [Error 501](#error-501).  
 If you can see the splash screen but the game crashes afterward, see [The game won't start after installing Hachimi](#the-game-won-t-start-after-installing-hachimi).
 
 ## Windows
@@ -97,7 +97,7 @@ This is a bug in the game, not Hachimi. Some users can turn on Windows Sonic wit
 ### Game stutters
 Make sure you don't have auto-translate on in the Hachimi settings. This only works when you have a translation server set up correctly, and will cause performance problems even then.
 
-### Global Steam and JP DMM versions constantly ask to redownload data
+### Error 501
 Both versions use the same data download directory name with different capitalization.
 Case sensitivity must be enabled on this directory for them to work together.
 ::: tip
@@ -118,6 +118,9 @@ Global uses "Umamusume" while JP uses "umamusume".
     Move-Item "$env:USERPROFILE\AppData\LocalLow\CygamesTEMP\*" "$env:USERPROFILE\AppData\LocalLow\Cygames"
     Remove-Item "$env:USERPROFILE\AppData\LocalLow\CygamesTEMP"
     ``
+
+### Global Steam and JP DMM versions constantly ask to redownload data
+See [Error 501](#error-501) above.
 
 ## Android
 
