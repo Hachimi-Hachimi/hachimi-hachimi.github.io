@@ -1,5 +1,7 @@
 # Installation guide (JP)
 
+Follow the guide for your platform below, then continue with [First Time Setup](#first-time-setup).
+
 ## Windows
 
 As of September 24th, 2025, you will need to use Hachimi Edge v0.14.2 or newer due to a big game update.
@@ -108,10 +110,16 @@ Upon launching the game for the first time after installing Hachimi, you should 
 
 ![First Time Setup](/assets/first-time-setup.jpg)
 
+::: warning
+If you don't see it after upgrading to Edge for the first time, open it from the Hachimi menu and complete the setup. Not doing so will result in outdated translations and corrupted texture issues.
+:::
+
 ::: info
-If you don't see it, it means that Hachimi has not been installed correctly. Please read the install guide carefully and try again, or look at [Troubleshooting](troubleshooting.md).
+If you don't see it otherwise, Hachimi has not been installed correctly. Please read the install guide carefully and try again, or look at [Troubleshooting](troubleshooting.md).
 :::
 
 Tap on Next and choose your preferred translation source, then tap on Done to save your configuration and start the update check.
 
 Hachimi will now prompt you to download a new translation update, click on Yes to start downloading the translation files.
+
+You can return to this dialog later to change your translation source through the Hachimi menu.

@@ -1,5 +1,7 @@
 # Installation guide (Global / TW / CN)
 
+Follow the guide for your platform below, then continue with [First Time Setup](#first-time-setup).
+
 ## Windows
 
 - Using the installer: Download the latest `hachimi_installer.exe` from the [Releases page](https://github.com/Hachimi-Hachimi/Hachimi-Unity2020/releases). Run it and click on Install. No need to modify any of the options if you don't know what they mean.
