@@ -66,7 +66,7 @@ The recommended source is [Qoopy](https://qoopy.leadrdrk.com/), use ID 6172.
 :::
 
 ::: tip
-On Xiaomi devices, try disabling MIUI Optimizations before installing.
+On Xiaomi devices without HyperOS, try disabling MIUI Optimizations before installing.
 :::
 
 1. If you used Umapatcher before, open its settings page and **export the signing key somewhere safe**.
