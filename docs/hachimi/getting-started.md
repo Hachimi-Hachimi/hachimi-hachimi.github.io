@@ -12,6 +12,10 @@ This project is inherently against the game's TOS.
 Use at your own risk, and please share names and links in a responsible manner, so as to minimize attention from the developers.
 :::
 
+::: warning
+Existing Hachimi user? You will need to change to Hachimi Edge due to a big game update on 2025/09/24.
+:::
+
 ## Compatibility
 
 ⚠️ Please check before installing.

@@ -4,7 +4,7 @@ Follow the guide for your platform below, then continue with [First Time Setup](
 
 ## Windows
 
-As of September 24th, 2025, you will need to use Hachimi Edge v0.14.2 or newer due to a big game update.
+As of 2025/09/24, you will need to use Hachimi Edge v0.14.2 or newer due to a big game update.
 If you run into issues, check out [Troubleshooting](troubleshooting.md).
 
 ::: warning
