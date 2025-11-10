@@ -6,7 +6,7 @@
 ### "Communication error" messages when attempting to start the game
 
 - In some regions, you might need a VPN to connect to the game itself. See [this page](https://gametora.com/umamusume/playing-on-dmm) for more details.
-- If both the **Global Steam** and **Japanese DMM** version of the game are installed, [try the steps for the constant redownloading issue below](#global-and-dmm-versions-constantly-ask-to-redownload-data).
+- If both the **Global Steam** and **Japanese DMM** version of the game are installed, [try the steps for the constant redownloading issue below](#global-steam-and-jp-dmm-versions-constantly-ask-to-redownload-data).
 
 ### Global Steam and JP DMM versions constantly ask to redownload data
 Both versions use the same data download directory name with different capitalization.
