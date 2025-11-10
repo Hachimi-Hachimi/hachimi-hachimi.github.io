@@ -1,16 +1,4 @@
 # Installation guide (JP)
-<small>
-
-View this page in other languages:
-
-[Tiếng Việt](/vi/docs/hachimi/getting-started.html) | [Deustch](/de/docs/hachimi/getting-started.html) | [简体中文](/zh-cn/docs/hachimi/getting-started.html) | [繁體中文](/zh-tw/docs/hachimi/getting-started.html) | [Bahasa Indonesia](/id/docs/hachimi/getting-started.html) | [日本語](/ja/docs/hachimi/getting-started.html)
-
-</small>
-
-::: warning
-This project is inherently against the game's TOS and The Game Developer would likely want it gone if they were ever to learn about it.  
-Use at your own risk, and please share names and links in a responsible manner. The community asks you to particularly refrain from doing so in places where it would attract certain attention from the developers.
-:::
 
 ## Installation process
 
