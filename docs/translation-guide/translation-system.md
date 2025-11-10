@@ -36,6 +36,8 @@ All of these dicts except for the lyrics dict allows specifying the asset bundle
 This protection system currently doesn't work anymore.
 :::
 
+The `atlas` type only serves as metadata for the atlas textures (see below). The `uianimation` type usually does the same for other textures, but can sometimes contain text data used by the game.
+
 ## Texture replacements
 Texture replacements are categorized by the type of the root asset from which the texture was loaded. For most texture types, a `.png` file would be used for replacement. They are split into their respective directories:
 
@@ -43,7 +45,7 @@ Texture replacements are categorized by the type of the root asset from which th
 - `an_texture_sets`: Contains the animated UI atlas textures, included in a `uianimation` asset bundle. A `uianimation` asset dict can be used to provide metadata for these textures. Path: `assets/an_texture_sets/as_uMeshParam_fl_*/tx_uTex_fl_*.png`
 - `textures`: Contains generic textures. Used by both the UI and 3D models in the game. Unlike other types, the file format of these replacement textures depends on the original filename specified in the asset bundle. For UI textures, it's usually `.png`, and for 3D model textures, it's usually `.tga`. Path: `assets/textures/*`
 
-All textures could be replaced using a `.diff.png` file instead of its original format. This is a special format based on PNG which only contains the difference data between the original image and a replacement image, thus avoiding any copyright issues.
+All textures can also be replaced using a `.diff.png` file instead of its original format. This is a special format based on PNG which only contains the difference data between the original image and a replacement image, saving considerably on file size. It is highly recommended to use only this format in a tl repo.
 
 ## Movies (videos / FMV cutscenes)
 They are USM formatted video files. Replacement of these assets is simply done by making the game load the replacement file.
