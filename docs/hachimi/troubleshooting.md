@@ -12,9 +12,10 @@
 Change the "Physics update mode" setting to "Mode60FPS". This setting is available in the Config Editor in the "Gameplay" tab.
 
 ### Corrupted images/sprites
-Update your translations. Your source might be out of date, ask its maintainers.
-
+Update your translations. Your source might be out of date, ask its maintainers.  
 If it's close to a game update, it's likely they will be working on it. Please check if they're already aware before bothering them. 
+
+If this doesn't help, you might still be using an old source. Open the Menu and run the `First Time Setup` again.
 
 ### Something isn't translated
 Translations are provided by volunteers in the community offering up their time. Many things are not yet done. Check in with your chosen translation source and try to support its translators.
