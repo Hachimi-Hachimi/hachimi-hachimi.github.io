@@ -1,8 +1,6 @@
 # Installation guide (JP)
 
-## Installation process
-
-### Windows
+## Windows
 
 As of September 24th, 2025, you will need to use Hachimi Edge v0.14.2 or newer due to a big game update.
 If you run into issues, check out [Troubleshooting](troubleshooting.md).
@@ -48,7 +46,7 @@ You will need to cleanly uninstall Shinmy first; make sure that it isn't running
 After that, you can just uninstall Hachimi as normal.
 </details>
 
-### Android
+## Android
 
 ::: warning
 Patching the game on Android will disable the Google Play Store for the game, including purchases. You can try to use the game developer's store.

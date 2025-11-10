@@ -1,8 +1,6 @@
 # Installation guide (Global / TW / CN)
 
-## Installation process
-
-### Windows
+## Windows
 
 - Using the installer: Download the latest `hachimi_installer.exe` from the [Releases page](https://github.com/Hachimi-Hachimi/Hachimi-Unity2020/releases). Run it and click on Install. No need to modify any of the options if you don't know what they mean.
 - Manually: Download the latest `hachimi.dll` from the [Releases page](https://github.com/Hachimi-Hachimi/Hachimi-Unity2020/releases) and put it in the game's install directory. Rename it to `winhttp.dll`, `version.dll` or `opengl32.dll`.
@@ -12,7 +10,7 @@ If you aren't interested in using Hachimi's translation features, you can disabl
 Installing translations onto the global version of the game may result in corrupted textures. This can be resolved by disabling translations (in Config Editor > Gameplay), then restarting the game.
 :::
 
-### Android
+## Android
 
 ::: warning
 Hachimi cannot be used with these versions without root.
