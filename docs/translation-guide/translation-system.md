@@ -58,6 +58,3 @@ The config file, localize dict, hashed dict and MDB dicts are all loaded immedia
 ~~Asset dicts will check for the bundle hash before they're applied. If the bundle hash doesn't match the one that's specified in the dict, it will ignore that file. If the bundle hash isn't specified in the asset dict, this check will be skipped.~~ Currently not working.
 
 Texture replacements have a special loading process. When the asset is loaded, it first looks for a corresponding `.diff.png` file to use as a diff, otherwise it tries to load a `.png` file. In the case that it finds a diff file to use, it will check the corresponding `.png` file's modified time. If the modified time is later than the diff's, it will load the `.png` file directly. If the file doesn't exist or the modified time is older than the diff file, it will apply the diff file to the original texture and save it to the `.png` file for later use.
-
-## Extra toolset
-Textures, atlases, and uianimation assets have [additional tools](https://github.com/noccu/hachimi-tools/tree/local) available to help working with them.

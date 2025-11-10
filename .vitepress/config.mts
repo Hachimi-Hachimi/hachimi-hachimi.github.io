@@ -35,7 +35,9 @@ const commonSidebarConfig: VitePressSidebarOptions = {
     'translation-guide',
     'welcome.md',
     'translation-system.md',
-    'using-zokuzoku.md'
+    'translating.md',
+    'using-zokuzoku.md',
+    'using-umatl.md'
   ]
 };
 
