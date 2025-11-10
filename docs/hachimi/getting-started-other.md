@@ -29,6 +29,4 @@ Upon launching the game for the first time after installing Hachimi, you should 
 If you don't see it, it means that Hachimi has not been installed correctly. Please read the install guide carefully and try again, or look at [Troubleshooting](troubleshooting.md).
 :::
 
-Tap on Next and choose your preferred translation source, then tap on Done to save your configuration and start the update check.
-
-Hachimi will now prompt you to download a new translation update, click on Yes to start downloading the translation files.
+⚠️ Close this dialog to forego translations. Using translations on an officially localized version is not supported at this time and will cause various issues.
