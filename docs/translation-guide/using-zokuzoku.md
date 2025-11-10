@@ -24,7 +24,7 @@ ZokuZoku will also automatically detect this file if it was created using the DM
 And of course, you'll also need an existing translation repository to work with. Check out [the current ones](/credits) or make your own.
 
 ### Installing
-Install from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=LeadRDRK.zokuzoku) or download the .vsix file for the latest version on the [Releases](https://github.com/thshafi170/ZokuZoku-Edge/releases) page, open the Extensions panel in VSCode, click on the 3 dots button on the top right, choose "Install from VSIX..." and select the file you just downloaded.
+Install from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=LeadRDRK.zokuzoku) or download the .vsix file for the latest version on the [Releases](https://github.com/Hachimi-Hachimi/ZokuZoku/releases) page, open the Extensions panel in VSCode, click on the 3 dots button on the top right, choose "Install from VSIX..." and select the file you just downloaded.
 
 ![Translation section in menu](/assets/translation-guide/using-zokuzoku/3.webp)
 
