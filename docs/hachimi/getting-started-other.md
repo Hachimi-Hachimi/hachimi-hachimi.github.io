@@ -4,8 +4,19 @@ Follow the guide for your platform below, then continue with [First Time Setup](
 
 ## Windows
 
-- Using the installer: Download the latest `hachimi_installer.exe` from the [Releases page](https://github.com/Hachimi-Hachimi/Hachimi-Unity2020/releases). Run it and click on Install. No need to modify any of the options if you don't know what they mean.
-- Manually: Download the latest `hachimi.dll` from the [Releases page](https://github.com/Hachimi-Hachimi/Hachimi-Unity2020/releases) and put it in the game's install directory. Rename it to `winhttp.dll`, `version.dll` or `opengl32.dll`.
+1. Download the latest `hachimi_installer.exe` from the [Releases page](https://github.com/Hachimi-Hachimi/Hachimi-Unity2020/releases). 
+1. Run it and click on Install. No need to modify any of the options if you don't know what they mean.
+
+<details>
+<summary class="collapsible-header-sub">Manual install</summary>
+
+:::tip
+Only add the **file** extensions (`.exe`, `.dll`) when you rename if you see them on the original file names. If you don't, it means Windows is set to hide them, and your rename will end with `.exe.exe`, breaking the game. Does not apply to folders.
+:::
+
+1. Download the latest `hachimi.dll` from the [Releases page](https://github.com/Hachimi-Hachimi/Hachimi-Unity2020/releases) and put it in the game's install directory.
+2. Rename it to `winhttp.dll`, `version.dll` or `opengl32.dll`.
+</details>
 
 ## Android
 
