@@ -48,6 +48,11 @@ If you can see the splash screen but the game crashes afterward, see [The game w
 
 ## Windows
 
+### Runtime error on launch
+This means you're using an old version of Hachimi, which broke after the game update on 2025/09/24. [Install Hachimi Edge](getting-started.md).
+
+If you're already using Edge, try reinstalling the latest version.
+
 ### The game won't start after installing Hachimi
 
 ::: warning
@@ -55,7 +60,7 @@ Some kernel-level anti-cheats (such as Vanguard, used in Valorant and League of 
 :::
 
 - Make sure you installed the correct version of Hachimi for your game version (Japanese or Other). You can find the right one on the [getting started](getting-started.md) page.
-- Restart your computer after enabling DotLocal.  
+- Restart your computer after the installer enables DotLocal redirection.  
   **Click "Restart" in the shutdown menu, don't just shut down and turn it back on.**
 - If you're using DMM, try restarting the DMM Launcher or force it to always run as administrator.
 - If you're using Steam, game updates can replace some modified files. Re-install Hachimi using the installer.
@@ -102,9 +107,11 @@ It's strongly recommended to **keep `Resolution scaling` at its default value** 
 - If your screen resolution is higher than **1080p**, try selecting a different `Resolution scaling` value.  
 - If your monitor's aspect ratio is not **16:9**, set `Full screen mode` to **Exclusive** instead.
 
-
 ### Sound issues
 This is a bug in the game, not Hachimi. Some users can turn on Windows Sonic without adverse effects to fix it.
+
+### Game stutters
+Make sure you don't have auto-translate on in the Hachimi settings. This only works when you have a translation server set up correctly, and will cause performance problems even then.
 
 ## Android
 
@@ -201,3 +208,6 @@ If during patching you see a message mentioning `libmain.so` you can try, in ord
 1. Reinstall Umapatcher Edge.
 1. Restart your device into recovery mode and wipe the cache.
 <!-- Todo: How safe is the last one...? -->
+
+## Emulators (incl. Google Play Games)
+Neither the game nor Hachimi support emulators. You can get them to work, but you're on your own. To play on PC, use the DMM or Steam client.
