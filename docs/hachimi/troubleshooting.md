@@ -8,28 +8,6 @@
 - In some regions, you might need a VPN to connect to the game itself. See [this page](https://gametora.com/umamusume/playing-on-dmm) for more details.
 - If both the **Global Steam** and **Japanese DMM** version of the game are installed, [try the steps for the constant redownloading issue below](#global-steam-and-jp-dmm-versions-constantly-ask-to-redownload-data).
 
-### Global Steam and JP DMM versions constantly ask to redownload data
-Both versions use the same data download directory name with different capitalization.
-Case sensitivity must be enabled on this directory for them to work together.
-::: tip
-If you want/need to move manually: To go directly to the game's data directory, use `WinKey + R` and enter `%localappdata%low\Cygames` in the dialog.
-Global uses "Umamusume" while JP uses "umamusume".
-:::
-1. Close the game.
-1. Open the `Start Menu`, search for `PowerShell`, choose "Run as Admin".
-1. Run the following command: `fsutil.exe file setCaseSensitiveInfo $env:USERPROFILE\AppData\LocalLow\Cygames enable`.
-    - If you get `Error: Unsupported action` or similar, first run the following command: `Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux`, then try again.
-    - If you get `Error: The directory is not empty`, temporarily move everything out of the `Cygames` folder, then try again:
-    ```powershell
-    New-Item -ItemType Directory "$env:USERPROFILE\AppData\LocalLow\CygamesTEMP"
-    Move-Item "$env:USERPROFILE\AppData\LocalLow\Cygames\*" "$env:USERPROFILE\AppData\LocalLow\CygamesTEMP"
-    ```
-1. If you had to empty the Cygames folder, move everything back into it:
-    ```powershell
-    Move-Item "$env:USERPROFILE\AppData\LocalLow\CygamesTEMP\*" "$env:USERPROFILE\AppData\LocalLow\Cygames"
-    Remove-Item "$env:USERPROFILE\AppData\LocalLow\CygamesTEMP"
-    ```
-
 ### Physics (hair, clothing, etc.) are stiff when running at 60+ FPS
 Change the "Physics update mode" setting to "Mode60FPS". This setting is available in the Config Editor in the "Gameplay" tab.
 
@@ -112,6 +90,28 @@ This is a bug in the game, not Hachimi. Some users can turn on Windows Sonic wit
 
 ### Game stutters
 Make sure you don't have auto-translate on in the Hachimi settings. This only works when you have a translation server set up correctly, and will cause performance problems even then.
+
+### Global Steam and JP DMM versions constantly ask to redownload data
+Both versions use the same data download directory name with different capitalization.
+Case sensitivity must be enabled on this directory for them to work together.
+::: tip
+If you want/need to move manually: To go directly to the game's data directory, use `WinKey + R` and enter `%localappdata%low\Cygames` in the dialog.
+Global uses "Umamusume" while JP uses "umamusume".
+:::
+1. Close the game.
+1. Open the `Start Menu`, search for `PowerShell`, choose "Run as Admin".
+1. Run the following command: `fsutil.exe file setCaseSensitiveInfo $env:USERPROFILE\AppData\LocalLow\Cygames enable`.
+    - If you get `Error: Unsupported action` or similar, first run the following command: `Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux`, then try again.
+    - If you get `Error: The directory is not empty`, temporarily move everything out of the `Cygames` folder, then try again:
+    ```powershell
+    New-Item -ItemType Directory "$env:USERPROFILE\AppData\LocalLow\CygamesTEMP"
+    Move-Item "$env:USERPROFILE\AppData\LocalLow\Cygames\*" "$env:USERPROFILE\AppData\LocalLow\CygamesTEMP"
+    ```
+1. If you had to empty the Cygames folder, move everything back into it:
+    ```powershell
+    Move-Item "$env:USERPROFILE\AppData\LocalLow\CygamesTEMP\*" "$env:USERPROFILE\AppData\LocalLow\Cygames"
+    Remove-Item "$env:USERPROFILE\AppData\LocalLow\CygamesTEMP"
+    ``
 
 ## Android
 
