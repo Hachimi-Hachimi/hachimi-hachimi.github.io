@@ -12,11 +12,6 @@ This project is inherently against the game's TOS and The Game Developer would l
 Use at your own risk, and please share names and links in a responsible manner. The community asks you to particularly refrain from doing so in places where it would attract certain attention from the developers.
 :::
 
-::: warning
-As of September 24th, 2025, you will need to use Hachimi Edge v0.14.2 or newer due to a big game update.
-If you run into issues, check out [Troubleshooting](troubleshooting.md).
-:::
-
 ## Compatibility
 
 ⚠️ Please check before installing.
