@@ -18,7 +18,8 @@ Update your translations. Your source might be out of date, ask its maintainers.
 Translations are provided by volunteers in the community offering up their time. Many things are not yet done. Check in with your chosen translation source and try to support its translators.
 
 ### Lyrics switch between language randomly
-Unfortunately, this is an unsolved bug introduced by a game update. We are working on it.
+~~Unfortunately, this is an unsolved bug introduced by a game update. We are working on it.~~
+This bug has been fixed. Update Hachimi to v0.15.1 or later.
 
 ### Game won't load beyond the splash screen
 If the game **gets stuck** on the splash screen, see [Global Steam and JP DMM versions constantly ask to redownload data](#global-steam-and-jp-dmm-versions-constantly-ask-to-redownload-data).  
