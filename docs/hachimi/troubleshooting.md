@@ -5,7 +5,9 @@
 
 ### "Communication error" messages when attempting to start the game
 
-- In some regions, you might need a VPN to connect to the game itself. See [this page](https://gametora.com/umamusume/playing-on-dmm) for more details.
+- After launching, most users do not need a VPN to connect to the game itself, and it can cause issues instead. Check that you have turned it off or use split tunneling (if supported). **In some regions, you *do* need a VPN to connect**. 
+  - You can check by accessing the [official API website](https://api-umamusume.cygames.jp). If you get `404 Not Found`, you don't need a VPN. `Access Denied` means you do.
+  - See [this guide](https://gametora.com/umamusume/playing-on-dmm) to get started with VPN, and [this guide](https://docs.google.com/document/d/18m9wHT4_AIh5ePKSo_ZYH9nSgNh492YQx76bIxmgqyc/edit?tab=t.0#heading=h.7cq4imx1gkqf) for an alternative VPN solution.
 - If both the **Global Steam** and **Japanese DMM** version of the game are installed, [try the steps for the constant redownloading issue below](#global-steam-and-jp-dmm-versions-constantly-ask-to-redownload-data).
 
 ### Physics (hair, clothing, etc.) are stiff when running at 60+ FPS
