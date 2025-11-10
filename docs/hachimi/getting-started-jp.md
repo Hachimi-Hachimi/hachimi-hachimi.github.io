@@ -70,17 +70,18 @@ On Xiaomi devices, try disabling MIUI Optimizations before installing.
 :::
 
 1. If you used Umapatcher before, open its settings page and **export the signing key somewhere safe**.
+1. Uninstall the original game if you have not patched it before.
 1. Download and install the latest version of [UmaPatcher Edge](https://github.com/kairusds/UmaPatcher-Edge/releases/latest/download/app-release.apk).
-2. Prepare an installation package for the game, which can be:
+1. Prepare an installation package for the game, which can be:
     - **Split APK files:** A base APK file and one of the split config APKs (config.arm64_v8a, config.armeabi-v7a, etc.),
     choose only one split config that's suitable for your device.
     This is currently only used by the JP version.
     - **Single APK file**: A full, fat APK file.
     - **XAPK file**: A ZIP file that contains the split APK files (with the extension renamed to XAPK).
-3. Open UmaPatcher, import the exported signing key if needed, and choose **Normal install**. Select the file(s) that you have prepared.
-4. Tap on Patch to start the patching and installation process.
+1. Open UmaPatcher, import the exported signing key if needed, and choose **Normal install**. Select the file(s) that you have prepared.
+1. Tap on Patch to start the patching and installation process.
 
-⚠️ You'll need to repeat this process from step 2 whenever the app updates. You do **not** need to uninstall the game.
+⚠️ You'll need to repeat this process from step 4 whenever the app updates. You do **not** need to uninstall the game to update.
 
 <details>
 <summary class="collapsible-header-sub">Patch without uninstall + store updates (requires root)</summary>
