@@ -36,6 +36,11 @@ This means you are banned.
 ## Windows
 
 ### Runtime error on launch
+
+::: warning
+If you're on global, a game update around 2025/11/11 has broken Hachimi support. Uninstall and await a fix.
+:::
+
 This means you're using an old version of Hachimi, which broke after the game update on 2025/09/24. [Install Hachimi Edge](getting-started.md).
 
 If you're already using Edge, try reinstalling the latest version.
