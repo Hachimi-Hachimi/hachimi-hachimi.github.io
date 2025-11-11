@@ -30,6 +30,9 @@ This bug has been fixed. Update Hachimi to v0.15.1 or later.
 If the game **gets stuck** on the splash screen, see [Error 501](#error-501).  
 If you can see the splash screen but the game crashes afterward, see [The game won't start after installing Hachimi](#the-game-won-t-start-after-installing-hachimi).
 
+### "Account resricted" message
+This means you are banned.
+
 ## Windows
 
 ### Runtime error on launch

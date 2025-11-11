@@ -22,3 +22,13 @@ No. It's used to track the current state of the translation files for incrementa
 - Is there a version or other mod for Apple devices (iOS)?
 
 No. Apple devices are very tightly locked down, making it very difficult to create or install any mods of this nature.
+
+- Will I get banned for using Hachimi? Have there been bans?
+
+Hachimi and similar tools violate TOS. You always carry the risk. 
+It is however unlikely, and no bans relating to Hachimi or other translation tools have been reported since 2022.
+
+- I think I'm banned, how can I tell for sure?
+
+This is what the message should look like when you are banned:
+![First Time Setup](/assets/banned.jpg)
