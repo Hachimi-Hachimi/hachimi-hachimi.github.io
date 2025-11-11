@@ -130,6 +130,10 @@ Global uses "Umamusume" while JP uses "umamusume".
 ### Global Steam and JP DMM versions constantly ask to redownload data
 See [Error 501](#error-501) above.
 
+### I/O error: Access is denied (os error 5)
+Something is using files you're trying to modify. Likely means you still have the game open while trying to(un)install Hachimi.
+
+
 ## Android
 
 ### Patching failed
