@@ -23,6 +23,10 @@ No. It's used to track the current state of the translation files for incrementa
 
 No. Apple devices are very tightly locked down, making it very difficult to create or install any mods of this nature.
 
+- How do I uninstall Hachimi?
+
+The installer has an uninstall option. If you no longer have it, you can download the latest one and use that.
+
 - Will I get banned for using Hachimi? Have there been bans?
 
 Hachimi and similar tools violate TOS. You always carry the risk. 
