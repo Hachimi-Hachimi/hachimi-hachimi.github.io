@@ -34,6 +34,9 @@ hero:
       text: Discord
       link: https://discord.gg/BVEt5FcxEn
     - theme: alt
+      text: FAQ
+      link: /docs/hachimi/faqs
+    - theme: alt
       text: Troubleshooting
       link: /docs/hachimi/troubleshooting
     - theme: alt

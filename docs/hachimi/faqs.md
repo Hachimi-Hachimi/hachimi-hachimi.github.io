@@ -37,3 +37,6 @@ It is however unlikely, and no bans relating to Hachimi or other translation too
 
 This is what the message should look like when you are banned:
 ![First Time Setup](/assets/banned.jpg)
+
+## Can I play JP and Global simultaneously?
+Yes, but you will need to use a workaround if using the DMM version. Check out [these steps](troubleshooting.md#error-501).
