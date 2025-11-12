@@ -33,6 +33,11 @@ If you can see the splash screen but the game crashes afterward, see [The game w
 ### "Account resricted" message
 This means you are banned.
 
+### The in-game background is shrunk / White border
+Open Hachimi Menu -> Config Editor and reset `virtual resolution multiplier` to 1. 
+If that doen't help, try adjusting it until it looks ok.
+
+
 ## Windows
 
 ### Runtime error on launch
