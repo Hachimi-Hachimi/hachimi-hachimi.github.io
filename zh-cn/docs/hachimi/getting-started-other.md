@@ -1,6 +1,6 @@
 # 安装指南（国际服 / 繁体中文服 / 简体中文服）
 
-请根据您的平台遵循下方的指南，然后继续进行 [初始化设置](#first-time-setup)。
+请根据您的平台遵循下方的指南，然后继续进行 [初始化设置](#初始化设置)。
 
 ## Windows
 
@@ -28,7 +28,7 @@
 从 [Releases 页面](https://github.com/Hachimi-Hachimi/Hachimi-Unity2020/releases)下载最新的 Zygisk zip 压缩包，并通过 Magisk 或 KernelSU（需搭配 Zygisk Next）进行安装。
 
 
-## 首次设置
+## 初始化设置
 安装 Hachimi 后首次启动游戏时，您应该会看到这个对话框：
 
 ![初始化设置](/assets/zh-cn/first-time-setup.jpg)

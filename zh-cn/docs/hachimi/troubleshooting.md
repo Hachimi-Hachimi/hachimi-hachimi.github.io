@@ -27,7 +27,7 @@
 此 bug 已修复。请将 Hachimi 更新至 v0.15.1 或更高版本。
 
 ### 游戏在启动画面后无法加载
-如果游戏在启动画面**卡住**，请参阅[错误 501](#error-501)。
+如果游戏在启动画面**卡住**，请参阅[错误 501](#错误-501)。
 如果您能看到启动画面但之后游戏崩溃，请参阅[安装 Hachimi 后游戏无法启动](#安装-Hachimi-后游戏无法启动)。
 
 ### 游戏内背景缩小 / 出现白边
@@ -105,6 +105,27 @@ Steam 覆盖层有时会与 Hachimi 的 GUI 冲突。请禁用其中一个（推
 ### 游戏卡顿
 确保您没有在 Hachimi 设置中开启自动翻译。该功能仅在您正确设置了翻译服务器时才能工作，即便如此也可能导致性能问题。
 
+### 错误 501
+两个版本使用相同的数据下载目录名称，但大小写不同。
+必须在此目录上启用大小写敏感，才能使它们共存。
+::: tip
+如果您想/需要手动移动：要直接进入游戏数据目录，请使用 `Win + R` 并在对话框中输入 `%localappdata%low\Cygames`。
+国际服使用 "Umamusume"，而日服使用 "umamusume"。
+:::
+1. 关闭游戏。
+2. 打开`开始菜单`，搜索`PowerShell`，选择“以管理员身份运行”。
+3. 运行以下命令：`fsutil.exe file setCaseSensitiveInfo $env:USERPROFILE\AppData\LocalLow\Cygames enable`。
+    - 如果您收到 `错误：不支持的操作` 或类似信息，请先运行以下命令：`Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux`，然后重试。
+    - 如果您收到 `错误：目录不是空的`，请暂时将 `Cygames` 文件夹中的所有内容移出，然后重试：
+    ```powershell
+    New-Item -ItemType Directory "$env:USERPROFILE\AppData\LocalLow\CygamesTEMP"
+    Move-Item "$env:USERPROFILE\AppData\LocalLow\Cygames\*" "$env:USERPROFILE\AppData\LocalLow\CygamesTEMP"
+    ```
+4. 如果您清空了 Cygames 文件夹，请将所有内容移回：
+    ```powershell
+    Move-Item "$env:USERPROFILE\AppData\LocalLow\CygamesTEMP\*" "$env:USERPROFILE\AppData\LocalLow\Cygames"
+    Remove-Item "$env:USERPROFILE\AppData\LocalLow\CygamesTEMP"
+
 ## Android
 
 ### 补丁失败
@@ -131,7 +152,7 @@ Steam 覆盖层有时会与 Hachimi 的 GUI 冲突。请禁用其中一个（推
 当游戏已被*卸载*但仍残留在**安全文件夹**中时，可能会出现此问题。请按照以下步骤完全删除游戏：
 
 1. 在您设备的开发者选项中**启用 USB 调试**。
-   如果您不知道如何操作，请查看此 [YouTube 短视频指南](https://www.youtube.com/shorts/p7DDuq56suU)
+   如果您不知道如何操作，请查看此 [bilibili 视频指南](https://www.bilibili.com/video/BV1Ht4y1X75e/)
 2. 在您的计算机上**下载并解压** [Android 平台工具 (ADB)](https://developer.android.com/tools/releases/platform-tools#downloads) 的 ZIP 文件。
 3. 在解压后的 ADB 文件夹内（`adb.exe` 所在的位置）右键单击空白区域，然后选择 **“在此处打开终端”** （或类似选项）来**打开一个终端**。
    - 在 Windows 10 中按住 **Shift** 并右键单击应该会显示**“在此处打开 PowerShell 窗口”**选项。
@@ -157,7 +178,7 @@ Steam 覆盖层有时会与 Hachimi 的 GUI 冲突。请禁用其中一个（推
  确保您的网络连接稳定，并且设备在 Play Integrity 服务器上至少通过了 **DEVICE_INTEGRITY** 检查（您可以使用 [Play Integrity API Checker](https://play.google.com/store/apps/details?id=gr.nikolasspyr.integritycheck) 应用进行验证）。如果通过了，使用 **Magisk 内置的 DenyList** 对游戏隐藏 root（如果无效则启用 *Enforce DenyList*）应该能解决问题。其他工具如 **Shamiko** 也可能有效。
 
 #### 您的设备未 root
- 如果此错误消息持续在您的设备上显示，可能表示与 Play Integrity 服务器的连接不稳定，或者您在启动游戏时需要使用 **VPN**。有关更多详细信息，请参阅[通讯错误](#communication-error-messages-when-attempting-to-start-the-game)部分。
+ 如果此错误消息持续在您的设备上显示，可能表示与 Play Integrity 服务器的连接不稳定，或者您在启动游戏时需要使用 **VPN**。有关更多详细信息，请参阅[通讯错误](#尝试启动游戏时出现通信错误消息)部分。
 
 
 ### I/O error: Permission denied (os error 13)
