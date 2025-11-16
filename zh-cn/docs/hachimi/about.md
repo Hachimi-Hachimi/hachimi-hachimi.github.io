@@ -7,7 +7,7 @@ title: 关于 Hachimi
 
 某赛马拟人化游戏的游戏增强与翻译插件。
 
-![Screenshot](/assets/screenshot.jpg)
+![Screenshot](/assets/zh-cn/screenshot.jpg)
 
 # 功能特性
 - **高质量翻译：** 内置先进的翻译功能系统，支持复数形式、序数词等自然语言特性，避免界面异常。支持自动翻译绝大多数游戏组件，无需手动修改资源文件！

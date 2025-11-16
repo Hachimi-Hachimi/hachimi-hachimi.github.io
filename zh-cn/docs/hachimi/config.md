@@ -30,6 +30,8 @@
 - `sugoi_url`: 用于自动翻译的 Sugoi Offline Translator或兼容翻译服务器的 URL。如果您使用的是典型的 Sugoi 配置，则无需设置此选项。默认值：`http://127.0.0.1:14366`
 - `auto_translate_stories`: 允许通过自动翻译器翻译剧情。
 - `auto_translate_localize`: 允许通过自动翻译器翻译 UI 文本。通常不建议这样做，因为大多数翻译器无法正确保留换行符或格式标签。
+- `disable_skill_name_translation"`: 禁用技能名称的翻译。
+- `ui_animation_scale`: UI 动画速度倍率，这会调整游戏内的 UI 动画速度，建议不要调整至`10.0` 以上，可能会导致游戏卡死等问题。默认值：`1.0`。
 
 ### 仅限 Windows
 - `vsync_count`: 垂直同步。设置为 1，即可让游戏帧率匹配显示器的刷新率。更多信息请参阅 [Unity 文档](https://docs.unity3d.com/ScriptReference/QualitySettings-vSyncCount.html)。
