@@ -35,6 +35,39 @@ img {
     width: 100%;
 }
 
+.discontinue-notice {
+    font-size: 1em;
+    padding: 0.5em 24px;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: var(--vp-button-brand-bg);
+    color: var(--vp-button-brand-text);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 0;
+    z-index: calc(var(--vp-z-index-sidebar) + 1);
+}
+
+.discontinue-notice .inner {
+    min-width: 0;
+}
+
+.discontinue-notice a {
+    text-decoration: underline;
+    white-space: nowrap;
+}
+
+.VPSidebar {
+    padding-top: calc(var(--vp-nav-height) + 2.5em) !important;
+}
+
+.VPNavScreen {
+    top: calc(var(--vp-nav-height) + var(--vp-layout-top-height, 0px) + 2.5em) !important;
+}
+
 @media (min-width: 640px) {
     :root {
         --vp-home-hero-image-filter: blur(56px);
@@ -56,5 +89,9 @@ img {
 
     .VPNavBar:not(.home.top) {
         backdrop-filter: blur(12px);
+    }
+
+    .discontinue-notice {
+        margin-top: var(--vp-nav-height);
     }
 }
