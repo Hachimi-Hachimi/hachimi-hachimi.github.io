@@ -24,8 +24,6 @@ const commonSidebarConfig: VitePressSidebarOptions = {
     'hachimi',
     'about.md',
     'getting-started.md',
-    'getting-started-jp.md',
-    'getting-started-other.md',
     'troubleshooting.md',
     'built-in-gui.md',
     'config.md',
@@ -35,9 +33,7 @@ const commonSidebarConfig: VitePressSidebarOptions = {
     'translation-guide',
     'welcome.md',
     'translation-system.md',
-    'translating.md',
-    'using-zokuzoku.md',
-    'using-umatl.md'
+    'using-zokuzoku.md'
   ]
 };
 
@@ -55,14 +51,14 @@ const vitePressSidebarConfig = [
 // https://vitepress.dev/reference/site-config
 const vitePressConfig: UserConfig = {
   title: "Hachimi",
-  description: "Game translation and enhancement mod for Umamusume. Maintained fork of Hachimi, with updates and improvements.",
+  description: "Game enhancement and translation mod for UM:PD",
   head: [
     ['link', { rel: "shortcut icon", href: "/favicon.ico"}]
   ],
   themeConfig: {
     logo: "/assets/logo.png",
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/kairusds/Hachimi-Edge' },
+      { icon: 'github', link: 'https://github.com/Hachimi-Hachimi/Hachimi' },
       { icon: 'discord', link: 'https://discord.gg/BVEt5FcxEn' }
     ]
   },
@@ -145,9 +141,6 @@ const vitePressConfig: UserConfig = {
         ]
       }
     }
-  },
-  sitemap: {
-    hostname: "https://hachimi.noccu.art"
   }
 };
 

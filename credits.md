@@ -1,34 +1,42 @@
 # Credits
 
-[Submit your own translation source](https://github.com/UmaTL/hachimi-meta)
-
-## [Mod](https://github.com/kairusds/Hachimi-Edge)
-- Original Author: LeadRDRK ([Hachimi](https://github.com/Hachimi-Hachimi/Hachimi))
-- Edge Maintainer: harveyhans
+## Mod
+- Author: LeadRDRK
 - Contributors:
-<a href="https://github.com/kairusds/Hachimi-Edge/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=kairusds/Hachimi-Edge" />
+<a href="https://github.com/Hachimi-Hachimi/Hachimi/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Hachimi-Hachimi/Hachimi" />
 </a>
 
-## [Website](https://github.com/UmaTL/hachimi-site)
-- Orignal Author: LeadRDRK
-- Edge Maintainer: noccu
+## [Website](https://github.com/Hachimi-Hachimi/hachimi-hachimi.github.io)
+- Maintainer: LeadRDRK
 - Contributors:
-<a href="https://github.com/UmaTL/hachimi-site/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=UmaTL/hachimi-site" />
+<a href="https://github.com/Hachimi-Hachimi/hachimi-hachimi.github.io/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Hachimi-Hachimi/hachimi-hachimi.github.io" />
 </a>
 
-## [English translations](https://github.com/UmaTL/hachimi-tl-en)
-- Maintainer: noccu
+## [English translations](https://github.com/Hachimi-Hachimi/tl-en)
+- Maintainer: LeadRDRK
 - Contributors:
-  <a href="https://github.com/UmaTL/hachimi-tl-en/graphs/contributors">
-    <img src="https://contrib.rocks/image?repo=UmaTL/hachimi-tl-en" />
-  </a>
-- [Full credits & Progress](https://github.com/UmaTL/hachimi-tl-en/wiki/Translation-Progress)
+<a href="https://github.com/Hachimi-Hachimi/tl-en/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Hachimi-Hachimi/tl-en" />
+</a>
 
-Alternate versions:
-- [English with skill data swap](https://github.com/UmaTL/hachimi-tl-en-sd)
-- [Skill data only](https://github.com/UmaTL/hachimi-sd)
+Translations were imported from these projects:
+- [noccu/umamusu-translate](https://github.com/noccu/umamusu-translate)
+    - noccu
+    - lotods
+    - KevinVG207
+    - SU-trash
+    - robflop
+    - hsven
+    - MiniFoxx
+    - BlunterMonk
+    - CryDuringItAll
+    - Nephiro
+    - watatomo
+    - ...and others
+- [KevinVG207/Uma-Carotene-TL](https://github.com/KevinVG207/Uma-Carotene-TL)
+- [GameTora](https://gametora.com/umamusume): gertas (et al.)
 
 ## [Simplified Chinese translations](https://github.com/Hachimi-Hachimi/tl-zh-cn/)
 - Maintainer: yingyingyingqwq
@@ -42,11 +50,4 @@ Alternate versions:
 - Contributors:
 <a href="https://github.com/Hachimi-Hachimi/tl-zh-tw/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Hachimi-Hachimi/tl-zh-tw" />
-</a>
-
-## [Indonesian translations](https://github.com/Xmatography/umachimi-id)
-- Maintainer: Xmatography
-- Contributors:
-<a href="https://github.com/Xmatography/umachimi-id/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Xmatography/umachimi-id" />
 </a>

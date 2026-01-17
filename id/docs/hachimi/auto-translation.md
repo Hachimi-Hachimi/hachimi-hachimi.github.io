@@ -1,36 +1,36 @@
-# Terjemahan Otomatis
-Hachimi dapat secara otomatis menerjemahkan sebagian isi game melalui **Sugoi Offline Translator** atau server terjemahan lain yang kompatibel dan menggunakan API serupa (seperti [py3translationServer](https://github.com/gdiaz384/py3translationServer)).
+# Penerjemah Otomatis
+Hachimi mampu menerjemahkan bagian-bagian permainan secara otomatis melalui Sugoi Offline Translator atau server terjemahan kompatibel yang menerapkan API serupa (seperti [py3translationServer](https://github.com/gdiaz384/py3translationServer)).
 
-### Apa artinya?
-- Kamu akan mendapatkan terjemahan mesin untuk konten yang belum diterjemahkan.
-- Terjemahan mesin akan digantikan dengan terjemahan asli begitu tersedia di repo terjemahan.
+### Apa Maksudnya?
+- Kamu akan mendapat mesin penerjemah untuk semua yang belum diterjemahkan.
+- Terjemahan dari mesin akan diganti oleh terjemahan asli jika mereka sudah tersedia dari repo terjemahannya.
 
-### Catatan
-- Proses terjemahan berjalan secara sinkron; game akan freeze (berhenti sejenak) saat menunggu hasil terjemahan. Masalah ini akan berkurang seiring waktu karena semakin banyak konten diterjemahkan dan Hachimi dapat memuat ulang data yang sudah diterjemahkan.
+### Waspada
+- Proses penerjemahan bersifat sinkron; permainan akan berhenti saat menunggu penerjemahan selesai. Proses ini akan berkurang seiring berjalannya waktu karena semakin banyak hal yang diterjemahkan dan Hachimi dapat memuat ulang data yang telah diterjemahkan.
 
-## Cara Menggunakan
-Buka **Config Editor** dan aktifkan salah satu opsi terjemahan otomatis (Auto translate stories/UI).
+## Cara Penggunaan
+Buka Config Editor dan hidupkan pengaturan Penerjemah Otomatis/Auto Translation (Otomatis Menerjemahkan Cerita/UI)
 
-::: warning
-"Auto translate UI" umumnya tidak disarankan, terutama jika menggunakan penerjemah yang tidak memiliki cache internal.
+::: peringatan
+"Auto translate UI" tidak direkomendasikan secara umum, terutama pada penerjemah yang tidak mempunyai cache internal.
 :::
 
-Kamu juga harus menjalankan program penerjemah bersamaan dengan game.
+Kamu juga butuh menjalankan program penerjemah bersamaan dengan gamenya.
 
 ### Untuk Sugoi Offline Translator
-Jalankan file **"Offline Translator" (.bat)** di dalam Sugoi Toolkit. Biarkan program penerjemah/jendela command prompt tetap terbuka agar Hachimi bisa menggunakannya (meskipun tidak akan menampilkan apa pun melalui jendela tersebut).
+Luncurkan file .bat "Offline Translator" di Sugoi Toolkit. Biarkan program penerjemahan/command prompt terbuka sehingga Hachimi dapat menggunakan penerjemah (namun, penerjemah tidak akan menampilkan apa pun melalui jendela ini).
 
-**"Auto translate UI" tidak disarankan dengan penerjemah ini.**
+**Penerjemah "Auto translate UI" tidak direkomendasikan.**
 
 ### Untuk py3translationServer
-Dengan asumsi model sudah dikonfigurasi dengan benar, tidak ada pengaturan tambahan yang diperlukan. Cukup jalankan server dan seharusnya langsung berfungsi.
+Jika menurutmu sudah menyiapkan model dengan benar, tidak perlu konfigurasi tambahan. Jalankan saja servernya dan akan berfungsi.
 
 ## URL Kustom
-Jika server terjemahanmu berjalan di port berbeda atau di mesin lain, kamu mungkin ingin mengatur agar Hachimi terhubung ke alamat lain.
+Jika server terjemahanmu berjalan di port atau mesin berbeda, kemungkinan kamu harus menghubungkan Hachimi di alamat yang berbeda.
 
-Untuk melakukannya, atur opsi `sugoi_url` secara manual di file konfigurasi. Contoh:
+Caranya, atur pengaturan `sugoi_url` secara manual di file konfig. Contoh:
 ```json
 "sugoi_url": "http://127.0.0.1:14366"
+```
 
-
-Secara default, nilai ini mungkin kosong atau diset ke null di file konfigurasi. Hal ini normal, dan Hachimi tetap akan terhubung ke "http://127.0.0.1:14366" jika tidak diatur secara manual.
+Biasanya, nilai ini mungkin tidak ada atau disetel ke `null` dalam berkas konfigurasi. Ini normal, dan Hachimi akan tetap terhubung ke `http://127.0.0.1:14366` jika tidak diatur secara manual.

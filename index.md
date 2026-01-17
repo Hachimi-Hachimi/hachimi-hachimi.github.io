@@ -2,70 +2,38 @@
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
-head:
-  - ["link", { rel: "canonical", href: "https://hachimi.noccu.art" }]
-  - [
-      "meta",
-      {
-        name: "og:description",
-        content: "Game translation and enhancement mod for Umamusume. Maintained fork of Hachimi, with updates and improvements.",
-      },
-    ]
-  - [
-      "meta",
-      {
-        name: "keywords",
-        content: "umamusume, hachimi, translation, game mod, patch",
-      },
-    ]
-
 hero:
-  name: "Hachimi Edge"
-  text: "UM:PD translation and enhancement mod"
-  tagline: For Windows and Android.
+  name: "Hachimi"
+  text: "Game enhancement and translation mod"
+  tagline: For UM:PD
   image:
     src: /assets/logo.png
     alt: Hachimi
   actions:
     - theme: brand
       text: Get Started
-      link: /docs/hachimi/getting-started
+      link: /docs/hachimi/getting-started.html
+    - theme: alt
+      text: View on GitHub
+      link: https://github.com/Hachimi-Hachimi/Hachimi
     - theme: alt
       text: Discord
       link: https://discord.gg/BVEt5FcxEn
-    - theme: alt
-      text: FAQ
-      link: /docs/hachimi/faqs
-    - theme: alt
-      text: Troubleshooting
-      link: /docs/hachimi/troubleshooting
-    - theme: alt
-      text: Credits
-      link: /credits
 
 features:
   - icon: 🚀
-    title: Easy to use
-    details: Comes with an installer and convenient in-game GUI. No patching whatsoever. Translations update automatically.
-  - icon: 🌍
-    title: Multilingual translations
-    details: Indexes translations from different community projects, allowing easy access and source switching. Check credits for a list.
-  - icon: 📝
-    title: Text augmentation
-    details: Provides specialized text features that help translations feel more natural and improves support for different languages.
+    title: Easy to install
+    details: Simple one-click installer makes installation a breeze. No patching whatsoever. All setup is done in-game, just plug and play.
   - icon: 🖥️
-    title: Game tweaks
-    details: Includes a number of other features and settings which you can adjust to fit your needs.
+    title: Built-in GUI
+    details: Convenient user interface lets you modify settings easily, among other features.
+  - icon: 📝
+    title: High quality translations
+    details: Comes with advanced translation features that help translations feel more natural.
+  - icon: 🪄
+    title: Game enhancement tweaks
+    details: Including graphics settings which you can adjust to fit your needs.
 ---
-
-## About
-
-Hachimi Edge is a fork of the unmaintained [Hachimi](https://hachimi.leadrdrk.com) mod. It was made to quickly serve issues fixed after the game update on 2025/09/24 to users, and has since incorporated additional features and fixes by various community members. If you are still using the original Hachimi, please uninstall it and install Edge to resolve issues. Should Hachimi's developer return, Edge will likely be merged back and discontinued.
-
-## Translations
-
-Translations are sourced from various community projects. Hachimi provides a framework to modify the game, it does not do any translation itself.
-Check out the sources in more detail on the [credits page](credits.md).
 
 ## Screenshots {#screenshots}
 

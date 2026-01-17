@@ -1,30 +1,26 @@
----
-title: about
----
-
 # Hachimi
 [![Server Discord](https://dcbadge.limes.pink/api/server/https://discord.gg/BVEt5FcxEn)](https://discord.gg/BVEt5FcxEn)
 
-Mod untuk meningkat pengalaman bermain dan terjemahan untuk UM:PD.
+Peningkatan permainan dan mod penerjemahan untuk UM:PD.
 
 ![Tangkapan Layar](/assets/screenshot.jpg)
 
 # Fitur
-- **Terjemahan berkualitas tinggi:** Hachimi hadir dengan fitur terjemahan canggih yang membuat hasil terjemahan terasa lebih alami (bentuk jamak, angka urutan, dll.) serta mencegah kerusakan pada UI. Juga mendukung penerjemahan sebagian besar komponen dalam game; tanpa perlu patching aset manual!
+- **Terjemahan kualitas tinggi:** Hachimi dilengkapi dengan fitur terjemahan canggih yang membantu terjemahan terasa lebih alami (bentuk jamak, angka urut, dll.) dan mencegah munculnya gangguan pada UI. Aplikasi ini juga mendukung penerjemahan sebagian besar komponen dalam game; tidak perlu menambal aset secara manual!
 
     Komponen yang didukung:
-    - Teks UI
+    - teks UI
     - master.mdb (nama skill, deskripsi skill, dll.)
-    - Cerita balapan
-    - Cerita utama/Dialog rumah
-    - Lirik lagu
+    - Cerita Balap
+    - Cerita Utama/Dialog Home
+    - Lirik
     - Penggantian tekstur
-    - Penggantian sprite atlas
+    - Penggantian atlas sprite
 
-    Selain itu, Hachimi tidak hanya menyediakan fitur terjemahan untuk satu bahasa; ia dirancang agar sepenuhnya dapat dikonfigurasi untuk bahasa apa pun.
+    Selain itu, Hachimi tidak menyediakan fitur terjemahan hanya untuk satu bahasa; fitur ini dirancang agar sepenuhnya dapat dikonfigurasi untuk bahasa apa pun.
 
-- **Setup mudah:** Tinggal colok dan mainkan. Semua setup dilakukan di dalam game itu sendiri, tanpa aplikasi eksternal.
-- **Pembaruan terjemahan otomatis:** Updater terjemahan bawaan memungkinkanmu tetap bermain normal sambil update berlangsung, lalu memuat ulang langsung di dalam game setelah selesai—tanpa perlu restart!
-- **GUI bawaan:** Dilengkapi dengan editor konfigurasi sehingga kamu bisa mengubah pengaturan tanpa keluar dari game!
-- **Pengaturan grafis:** Kamu dapat menyesuaikan pengaturan grafis game untuk memaksimalkan spesifikasi perangkatmu, seperti membuka batas FPS dan scaling resolusi.
-- **Lintas platform:** Dirancang dari awal agar portabel, dengan dukungan Windows dan Android.
+- **Pengaturan mudah:** Cukup atur dan mainkan. Semua pengaturan dilakukan di dalam game itu sendiri, tidak perlu aplikasi eksternal.
+- **Pembaruan terjemahan otomatis:** Pembaruan terjemahan bawaan memungkinkanmu memainkan game seperti biasa saat memperbarui, dan memuatnya ulang dalam game saat selesai, tidak perlu memulai ulang!
+- **GUI bawaan:** Dilengkapi dengan editor konfigurasi sehingga kamu dapat mengubah pengaturan tanpa harus keluar dari permainan!
+- **Pengaturan grafis:** Kamu dapat menyesuaikan pengaturan grafis game untuk memanfaatkan spesifikasi perangkat Anda sepenuhnya, seperti membuka kunci FPS dan penskalaan resolusi.
+- **Antar-platform:** Dirancang dari awal agar portabel, dengan dukungan Windows dan Android.
